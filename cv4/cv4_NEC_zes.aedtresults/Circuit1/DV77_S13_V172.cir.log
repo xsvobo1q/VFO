@@ -1,0 +1,20 @@
+(status): Nexxim version: 2021.2.0 WIN64, build time: May 24 2021, 22:40:30
+
+(status): Analyzing D:/Documents/xsvobo1q/VFO/cv4/cv4_NEC_zes.aedtresults/Circuit1/temp/DV77_S13_V172.cir.
+(info): Processing circuit for new analysis.
+omp(status): Requested number of threads in UI setting is 1
+circuit_details(status): Total device types: 4
+device type                                       number of devices
+----------------------------------------------------------------------
+capacitor                                         2
+inductor                                          3
+port_impedance                                    2
+s_element                                         1
+(status): License checkout took 3.744 seconds.
+models:s_element(warning): s13 - S-parameter data in file: d:\documents\xsvobo1q\vfo\cv4\ne68133i.s2p is not passive. Worst violation of 7.7362 at 1e+08 (Hz). Suspect active device.
+(info): Starting analysis type LNA.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:small_signal:lna(warning): Z parameters invalid due to singularity that may be caused by floating nodes/ports.
+(status): LNA cpu time = 0.021
+(info): Simulation succeeded. Total simulator time: 0:00:03
+(status): Start Time:  03/02/2022 14:16:08, End Time:  03/02/2022 14:16:12, Host PC-078, 

@@ -1,0 +1,94 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002022, month=000000000003, day=000000000002, hour=000000000014, min=000000000020, sec=000000000053)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000003926, lin=000000000073, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName='Circuit Design'
+	CircuitName='Circuit1'
+	VersionID=172
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=173
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='c1=\'9.1999999999999996e-12farad\'', ID=15)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\'', ID=36)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'0.099999999999999603nH\'', ID=84)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'0.19999999999999901nH\'', ID=82)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'0.29999999999999999nH\'', ID=94)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'0.39999999999999902nH\'', ID=95)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'0.59999999999999998nH\'', ID=96)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'0.5nH\'', ID=81)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'0.69999999999999996nH\'', ID=97)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'0.80000000000000004nH\'', ID=80)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'0.89999999999999902nH\'', ID=79)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'0nH\'', ID=83)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'1.1000000000000001nH\'', ID=75)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'1.2nH\'', ID=78)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'1.3999999999999999nH\'', ID=77)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'1.3nH\'', ID=85)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'1.5nH\'', ID=76)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'1.6000000000000001nH\'', ID=93)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'1nH\'', ID=74)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'2.1000000000000001nH\'', ID=86)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'2.7999999999999998nH\'', ID=87)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'3.5nH\'', ID=88)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'4.0999999999999996nH\'', ID=89)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'4.7000000000000002nH\'', ID=90)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'4.9000000000000004nH\'', ID=92)
+		Map(V='c1=\'9.1999999999999996e-12farad\' l1=\'24nH\' l2=\'5nH\'', ID=91)
+		Map(V='l2=\'1.3999999999999999nH\'', ID=98)
+	$end 'VariationIDs'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=14, Instance=\'SetupDefinition\', Solution=-1, VersionID=172)'='SolutionBlock55'
+	'SolutionKey(SimSetup=14, Instance=\'SolutionDefinition\', Solution=13, VersionID=172)'='SolutionBlock54'
+	'SolutionKey(SimSetup=14, Instance=\'c1=\\\'9.1999999999999996e-12farad\\\' l1=\\\'24nH\\\' l2=\\\'1.3999999999999999nH\\\'\', Solution=13, VersionID=172)'='SolutionBlock56'
+$end 'BlockMapName'
+$begin 'SolutionBlock54'
+	SolutionName='LinearFrequency'
+	SolutionID=13
+	V=172
+	$begin 'States'
+		F(VID=77, Ver=172)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	AlterName=''
+$end 'SolutionBlock54'
+$begin 'SolutionBlock55'
+	SimSetupID=14
+	SimSetupName='LinearFrequency'
+	VersionID=172
+	DefaultSol=13
+$end 'SolutionBlock55'
+$begin 'SolutionBlock56'
+	VariationDataID=-1
+	File='DV77_S13_V172.cir'
+$end 'SolutionBlock56'
+$begin 'ResponseSurfaceCache'
+	ResponseSurfaceCache()
+$end 'ResponseSurfaceCache'
+$begin '$index$'
+	$begin '$index$'
+		ResponseSurfaceCache(pos=3844, lin=70, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=2881, lin=39, lvl=0)
+		SolutionBlock54(pos=3338, lin=45, lvl=0)
+		SolutionBlock55(pos=3625, lin=60, lvl=0)
+		SolutionBlock56(pos=3750, lin=66, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=3926, lin=73, lvl=0)
+	$end '$index$'
+$end '$index$'

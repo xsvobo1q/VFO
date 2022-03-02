@@ -1,0 +1,19 @@
+(status): Nexxim version: 2021.2.0 WIN64, build time: May 24 2021, 22:40:30
+
+(status): Analyzing D:/Documents/xsvobo1q/VFO/cv4/cv4.aedtresults/Circuit1/temp/DV36_S13_V35.cir.
+(info): Processing circuit for new analysis.
+omp(status): Requested number of threads in UI setting is 1
+circuit_details(status): Total device types: 4
+device type                                       number of devices
+----------------------------------------------------------------------
+capacitor                                         4
+inductor                                          1
+port_impedance                                    4
+s_element                                         1
+(status): License checkout took 3.849 seconds.
+(info): Starting analysis type LNA.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:small_signal:lna(warning): Z parameters invalid due to singularity that may be caused by floating nodes/ports.
+(status): LNA cpu time = 0.008
+(info): Simulation succeeded. Total simulator time: 0:00:03
+(status): Start Time:  03/02/2022 13:25:25, End Time:  03/02/2022 13:25:29, Host PC-078, 

@@ -1,0 +1,75 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002022, month=000000000002, day=000000000016, hour=000000000013, min=000000000050, sec=000000000022)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000004655, lin=000000000055, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName='Circuit Design'
+	CircuitName='Circuit1'
+	VersionID=70
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=75
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=16)
+		Map(V='c1=\'0.0031830988618379067\' c3=\'0.0031830988618379067farad\' fc=\'1Hz\' l1=\'15.915494309189533\' Rin=\'50ohm\'', ID=41)
+		Map(V='c1=\'0.0031830988618379067\' c3=\'0.0032836847858719849farad\' c4=\'0.0032836847858719849farad\' fc=\'1Hz\' fc2=\'1Hz\' l1=\'15.915494309189533\' l2=\'9.1307190851820348H\' Rin=\'50ohm\'', ID=46)
+		Map(V='c1=\'0.0031830988618379067\' c3=\'0.0032836847858719849farad\' c4=\'0.0032836847858719849farad\' fc=\'1Hz\' l1=\'15.915494309189533\' l2=\'9.1307190851820348H\' Rin=\'50ohm\'', ID=44)
+		Map(V='c1=\'0.0031830988618379067\' c3=\'0.0045971587002207794farad\' c4=\'0.0045971587002207794farad\' c5=\'0.0030147129320466817farad\' c6=\'0.00038356341285146776\' c7=\'0.0030147129320466817farad\' fc=\'1Hz\' fc2=\'0.7142857142857143Hz\' fc3=\'1Hz\' koef=\'0.7142857142857143\' l1=\'15.915494309189533\' l2=\'12.78300671925485H\' l3=\'8.0954161803692575H\' Rin=\'50ohm\'', ID=69)
+		Map(V='c1=\'0.0031830988618379067\' c3=\'0.0045971587002207794farad\' c4=\'0.0045971587002207794farad\' c5=\'0.0040397153289425539farad\' c6=\'0.00051397497322096686\' c7=\'0.0040397153289425539farad\' fc=\'1Hz\' fc2=\'0.7142857142857143Hz\' fc3=\'0.74626865671641784Hz\' koef=\'0.7142857142857143\' koef2=\'0.74626865671641784\' l1=\'15.915494309189533\' l2=\'12.78300671925485H\' l3=\'10.847857681694807H\' Rin=\'50ohm\'', ID=71)
+		Map(V='c1=\'0.0031830988618379067\' c3=\'0.0045971587002207794farad\' c4=\'0.0045971587002207794farad\' c5=\'0.004220598104865355farad\' c6=\'0.00053698877799205486\' c7=\'0.004220598104865355farad\' fc=\'1Hz\' fc2=\'0.7142857142857143Hz\' koef=\'0.7142857142857143\' l1=\'15.915494309189533\' l2=\'12.78300671925485H\' l3=\'11.333582652516959H\' Rin=\'50ohm\'', ID=67)
+		Map(V='c1=\'0.0031830988618379067\' c3=\'0.0045971587002207794farad\' c4=\'0.0045971587002207794farad\' fc=\'1Hz\' fc2=\'0.7142857142857143Hz\' koef=\'0.7142857142857143\' l1=\'15.915494309189533\' l2=\'12.78300671925485H\' Rin=\'50ohm\'', ID=48)
+		Map(V='c1=\'0.0031830988618379067\' fc=\'1Hz\' l1=\'15.915494309189533\' Rin=\'50ohm\'', ID=25)
+		Map(V='c1=\'0.15915494309189535\' fc=\'1Hz\' l1=\'0.31830988618379069\' Rin=\'1ohm\'', ID=24)
+		Map(V='c1=\'1farad\' l1=\'2H\'', ID=22)
+		Map(V='c1=\'3.1830988618379071e-11\' c3=\'4.5971587002207786e-11farad\' c4=\'4.5971587002207786e-11farad\' c5=\'4.0397153289425542e-11farad\' c6=\'5.1397497322096687e-12\' c7=\'4.0397153289425542e-11farad\' fc=\'100000000Hz\' fc2=\'71428571.428571433Hz\' fc3=\'74626865.671641782Hz\' koef=\'0.7142857142857143\' koef2=\'0.74626865671641784\' l1=\'1.5915494309189535e-07\' l2=\'1.2783006719254849e-07H\' l3=\'1.0847857681694806e-07H\' Rin=\'50ohm\'', ID=72)
+	$end 'VariationIDs'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=15, Instance=\'SetupDefinition\', Solution=-1, VersionID=74)'='SolutionBlock41'
+	'SolutionKey(SimSetup=15, Instance=\'SolutionDefinition\', Solution=14, VersionID=74)'='SolutionBlock42'
+	'SolutionKey(SimSetup=15, Instance=\'c1=\\\'3.1830988618379071e-11\\\' c3=\\\'4.5971587002207786e-11farad\\\' c4=\\\'4.5971587002207786e-11farad\\\' c5=\\\'4.0397153289425542e-11farad\\\' c6=\\\'5.1397497322096687e-12\\\' c7=\\\'4.0397153289425542e-11farad\\\' fc=\\\'100000000Hz\\\' fc2=\\\'71428571.428571433Hz\\\' fc3=\\\'74626865.671641782Hz\\\' koef=\\\'0.7142857142857143\\\' koef2=\\\'0.74626865671641784\\\' l1=\\\'1.5915494309189535e-07\\\' l2=\\\'1.2783006719254849e-07H\\\' l3=\\\'1.0847857681694806e-07H\\\' Rin=\\\'50ohm\\\'\', Solution=14, VersionID=74)'='SolutionBlock40'
+$end 'BlockMapName'
+$begin 'SolutionBlock42'
+	SolutionName='LinearFrequency'
+	SolutionID=14
+	V=74
+	$begin 'States'
+		F(VID=72, Ver=74)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	AlterName=''
+$end 'SolutionBlock42'
+$begin 'SolutionBlock41'
+	SimSetupID=15
+	SimSetupName='LinearFrequency'
+	VersionID=74
+	DefaultSol=14
+$end 'SolutionBlock41'
+$begin 'SolutionBlock40'
+	VariationDataID=-1
+	File='DV72_S14_V74.cir'
+$end 'SolutionBlock40'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock40(pos=4562, lin=51, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=3285, lin=24, lvl=0)
+		SolutionBlock42(pos=4153, lin=30, lvl=0)
+		SolutionBlock41(pos=4438, lin=45, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=4655, lin=55, lvl=0)
+	$end '$index$'
+$end '$index$'
