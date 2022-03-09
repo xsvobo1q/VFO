@@ -1,0 +1,27 @@
+(status): Nexxim version: 2021.2.0 WIN64, build time: May 24 2021, 22:40:30
+
+(status): Analyzing D:/Documents/xsvobo1q/VFO/cv5/cv5_2p4GHz_amplifier_MS_matching.aedtresults/Circuit1/temp/DV235_S8_V255.cir.
+(info): Processing circuit for new analysis.
+omp(status): Requested number of threads in UI setting is 1
+circuit_details(status): Total device types: 6
+device type                                       number of devices
+----------------------------------------------------------------------
+capacitor                                         3
+inductor                                          1
+port_impedance                                    2
+resistor                                          2
+s_element                                         1
+trl                                               3
+(status): License checkout took 3.768 seconds.
+models:w_element(status): a24.w - Building frequency-domain model
+models:w_element(status): a24.w - Finished building frequency-domain model
+models:w_element(status): a27.w - Building frequency-domain model
+models:w_element(status): a27.w - Finished building frequency-domain model
+models:w_element(status): a34.w - Building frequency-domain model
+models:w_element(status): a34.w - Finished building frequency-domain model
+models:s_element(warning): s2 - S-parameter data in file: d:\documents\xsvobo1q\vfo\cv5\bfp720esd_w_noise_vce_3.0v_ic_5.0ma.s2p is not passive. Worst violation of 14.1457 at 1e+07 (Hz). Suspect active device.
+(info): Starting analysis type LNA.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+(status): LNA cpu time = 0.007
+(info): Simulation succeeded. Total simulator time: 0:00:03
+(status): Start Time:  03/09/2022 14:06:08, End Time:  03/09/2022 14:06:12, Host PC-078, 

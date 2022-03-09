@@ -1,0 +1,206 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002022, month=000000000003, day=000000000009, hour=000000000014, min=000000000011, sec=000000000000)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000009624, lin=000000000185, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName='Circuit Design'
+	CircuitName='Circuit1'
+	VersionID=255
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=256
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=10)
+		Map(V='L1=\'0.59999999999999998nH\'', ID=31)
+		Map(V='L1=\'0.59999999999999998nH\' Rp=\'145ohm\' Rs=\'22ohm\'', ID=120)
+		Map(V='L1=\'0.5nH\'', ID=32)
+		Map(V='L1=\'0.5nH\' Rp=\'1000ohm\' Rs=\'2ohm\'', ID=42)
+		Map(V='L1=\'0.5nH\' Rp=\'130ohm\' Rs=\'22ohm\'', ID=117)
+		Map(V='L1=\'0.5nH\' Rp=\'135ohm\' Rs=\'22ohm\'', ID=116)
+		Map(V='L1=\'0.5nH\' Rp=\'140ohm\' Rs=\'22ohm\'', ID=118)
+		Map(V='L1=\'0.5nH\' Rp=\'145ohm\' Rs=\'22ohm\'', ID=119)
+		Map(V='L1=\'0.5nH\' Rp=\'150ohm\' Rs=\'22ohm\'', ID=115)
+		Map(V='L1=\'0.5nH\' Rp=\'155ohm\' Rs=\'22ohm\'', ID=114)
+		Map(V='L1=\'0.5nH\' Rp=\'155ohm\' Rs=\'28ohm\'', ID=113)
+		Map(V='L1=\'0.5nH\' Rp=\'155ohm\' Rs=\'32ohm\'', ID=112)
+		Map(V='L1=\'0.5nH\' Rp=\'155ohm\' Rs=\'36ohm\'', ID=111)
+		Map(V='L1=\'0.5nH\' Rp=\'155ohm\' Rs=\'38ohm\'', ID=110)
+		Map(V='L1=\'0.5nH\' Rp=\'160ohm\' Rs=\'38ohm\'', ID=109)
+		Map(V='L1=\'0.5nH\' Rp=\'190ohm\' Rs=\'38ohm\'', ID=108)
+		Map(V='L1=\'0.5nH\' Rp=\'195ohm\' Rs=\'38ohm\'', ID=107)
+		Map(V='L1=\'0.5nH\' Rp=\'205ohm\' Rs=\'38ohm\'', ID=106)
+		Map(V='L1=\'0.5nH\' Rp=\'215ohm\' Rs=\'38ohm\'', ID=105)
+		Map(V='L1=\'0.5nH\' Rp=\'235ohm\' Rs=\'38ohm\'', ID=104)
+		Map(V='L1=\'0.5nH\' Rp=\'250ohm\' Rs=\'38ohm\'', ID=103)
+		Map(V='L1=\'0.5nH\' Rp=\'270ohm\' Rs=\'38ohm\'', ID=102)
+		Map(V='L1=\'0.5nH\' Rp=\'275ohm\' Rs=\'38ohm\'', ID=101)
+		Map(V='L1=\'0.5nH\' Rp=\'280ohm\' Rs=\'38ohm\'', ID=100)
+		Map(V='L1=\'0.5nH\' Rp=\'290ohm\' Rs=\'38ohm\'', ID=99)
+		Map(V='L1=\'0.5nH\' Rp=\'300ohm\' Rs=\'38ohm\'', ID=98)
+		Map(V='L1=\'0.5nH\' Rp=\'305ohm\' Rs=\'38ohm\'', ID=97)
+		Map(V='L1=\'0.5nH\' Rp=\'325ohm\' Rs=\'38ohm\'', ID=96)
+		Map(V='L1=\'0.5nH\' Rp=\'330ohm\' Rs=\'38ohm\'', ID=95)
+		Map(V='L1=\'0.5nH\' Rp=\'340ohm\' Rs=\'38ohm\'', ID=94)
+		Map(V='L1=\'0.5nH\' Rp=\'345ohm\' Rs=\'38ohm\'', ID=93)
+		Map(V='L1=\'0.5nH\' Rp=\'350ohm\' Rs=\'38ohm\'', ID=92)
+		Map(V='L1=\'0.5nH\' Rp=\'360ohm\' Rs=\'38ohm\'', ID=91)
+		Map(V='L1=\'0.5nH\' Rp=\'365ohm\' Rs=\'38ohm\'', ID=90)
+		Map(V='L1=\'0.5nH\' Rp=\'380ohm\' Rs=\'38ohm\'', ID=89)
+		Map(V='L1=\'0.5nH\' Rp=\'395ohm\' Rs=\'38ohm\'', ID=88)
+		Map(V='L1=\'0.5nH\' Rp=\'405ohm\' Rs=\'38ohm\'', ID=87)
+		Map(V='L1=\'0.5nH\' Rp=\'410ohm\' Rs=\'38ohm\'', ID=86)
+		Map(V='L1=\'0.5nH\' Rp=\'415ohm\' Rs=\'38ohm\'', ID=85)
+		Map(V='L1=\'0.5nH\' Rp=\'430ohm\' Rs=\'38ohm\'', ID=84)
+		Map(V='L1=\'0.5nH\' Rp=\'435ohm\' Rs=\'38ohm\'', ID=83)
+		Map(V='L1=\'0.5nH\' Rp=\'445ohm\' Rs=\'38ohm\'', ID=82)
+		Map(V='L1=\'0.5nH\' Rp=\'455ohm\' Rs=\'38ohm\'', ID=81)
+		Map(V='L1=\'0.5nH\' Rp=\'470ohm\' Rs=\'38ohm\'', ID=80)
+		Map(V='L1=\'0.5nH\' Rp=\'480ohm\' Rs=\'38ohm\'', ID=79)
+		Map(V='L1=\'0.5nH\' Rp=\'490ohm\' Rs=\'38ohm\'', ID=78)
+		Map(V='L1=\'0.5nH\' Rp=\'495ohm\' Rs=\'38ohm\'', ID=77)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'100ohm\'', ID=66)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'102ohm\'', ID=67)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'106ohm\'', ID=68)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'108ohm\'', ID=69)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'16ohm\'', ID=44)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'18ohm\'', ID=45)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'24ohm\'', ID=46)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'30ohm\'', ID=47)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'32ohm\'', ID=48)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'36ohm\'', ID=49)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'38ohm\'', ID=76)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'40ohm\'', ID=50)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'42ohm\'', ID=75)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'44ohm\'', ID=51)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'46ohm\'', ID=52)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'48ohm\'', ID=74)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'4ohm\'', ID=43)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'50ohm\'', ID=53)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'52ohm\'', ID=54)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'54ohm\'', ID=73)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'56ohm\'', ID=55)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'62ohm\'', ID=56)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'64ohm\'', ID=72)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'66ohm\'', ID=57)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'70ohm\'', ID=58)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'74ohm\'', ID=59)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'76ohm\'', ID=71)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'78ohm\'', ID=60)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'80ohm\'', ID=61)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'84ohm\'', ID=62)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'88ohm\'', ID=63)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'92ohm\'', ID=70)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'94ohm\'', ID=64)
+		Map(V='L1=\'0.5nH\' Rp=\'500ohm\' Rs=\'96ohm\'', ID=65)
+		Map(V='L1=\'0.69999999999999996nH\'', ID=30)
+		Map(V='L1=\'0.89999999999999902nH\'', ID=29)
+		Map(V='L1=\'0.89999999999999902nH\' Rp=\'145ohm\' Rs=\'22ohm\'', ID=121)
+		Map(V='L1=\'1.1000000000000001nH\'', ID=28)
+		Map(V='L1=\'1.1000000000000001nH\' Rp=\'145ohm\' Rs=\'22ohm\'', ID=123)
+		Map(V='L1=\'1.3999999999999999nH\'', ID=26)
+		Map(V='L1=\'1.3nH\'', ID=27)
+		Map(V='L1=\'1.3nH\' Rp=\'145ohm\' Rs=\'22ohm\'', ID=124)
+		Map(V='L1=\'1.5nH\' l2=\'18.5mm\' Rp=\'150ohm\' Rs=\'18ohm\'', ID=232)
+		Map(V='L1=\'1.5nH\' l2=\'19.5mm\' Rp=\'150ohm\' Rs=\'18ohm\'', ID=230)
+		Map(V='L1=\'1.5nH\' l2=\'19mm\' Rp=\'150ohm\' Rs=\'18ohm\'', ID=231)
+		Map(V='L1=\'1.5nH\' l2=\'20.5mm\' Rp=\'150ohm\' Rs=\'18ohm\'', ID=233)
+		Map(V='L1=\'1.5nH\' l2=\'20mm\' Rp=\'150ohm\' Rs=\'18ohm\'', ID=229)
+		Map(V='L1=\'1.5nH\' l2=\'21.5mm\' Rp=\'150ohm\' Rs=\'18ohm\'', ID=234)
+		Map(V='L1=\'1.5nH\' l2=\'21mm\' Rp=\'150ohm\' Rs=\'18ohm\'', ID=236)
+		Map(V='L1=\'1.5nH\' l2=\'22.5mm\' Rp=\'150ohm\' Rs=\'18ohm\'', ID=241)
+		Map(V='L1=\'1.5nH\' l2=\'22mm\' Rp=\'150ohm\' Rs=\'18ohm\'', ID=235)
+		Map(V='L1=\'1.5nH\' l2=\'23mm\' Rp=\'150ohm\' Rs=\'18ohm\'', ID=239)
+		Map(V='L1=\'1.5nH\' l2=\'24.5mm\' Rp=\'150ohm\' Rs=\'18ohm\'', ID=238)
+		Map(V='L1=\'1.5nH\' l2=\'25mm\' Rp=\'150ohm\' Rs=\'18ohm\'', ID=237)
+		Map(V='L1=\'1.5nH\' Rp=\'145ohm\' Rs=\'22ohm\'', ID=125)
+		Map(V='L1=\'1.5nH\' Rp=\'145ohm\' Rs=\'26ohm\'', ID=126)
+		Map(V='L1=\'1.5nH\' Rp=\'145ohm\' Rs=\'28ohm\'', ID=127)
+		Map(V='L1=\'1.5nH\' Rp=\'145ohm\' Rs=\'34ohm\'', ID=128)
+		Map(V='L1=\'1.5nH\' Rp=\'145ohm\' Rs=\'42ohm\'', ID=129)
+		Map(V='L1=\'1.5nH\' Rp=\'145ohm\' Rs=\'46ohm\'', ID=130)
+		Map(V='L1=\'1.5nH\' Rp=\'145ohm\' Rs=\'54ohm\'', ID=131)
+		Map(V='L1=\'1.5nH\' Rp=\'145ohm\' Rs=\'56ohm\'', ID=132)
+		Map(V='L1=\'1.5nH\' Rp=\'145ohm\' Rs=\'64ohm\'', ID=133)
+		Map(V='L1=\'1.5nH\' Rp=\'150ohm\' Rs=\'10ohm\'', ID=146)
+		Map(V='L1=\'1.5nH\' Rp=\'150ohm\' Rs=\'12ohm\'', ID=145)
+		Map(V='L1=\'1.5nH\' Rp=\'150ohm\' Rs=\'14ohm\'', ID=148)
+		Map(V='L1=\'1.5nH\' Rp=\'150ohm\' Rs=\'18ohm\'', ID=144)
+		Map(V='L1=\'1.5nH\' Rp=\'150ohm\' Rs=\'20ohm\'', ID=149)
+		Map(V='L1=\'1.5nH\' Rp=\'150ohm\' Rs=\'22ohm\'', ID=143)
+		Map(V='L1=\'1.5nH\' Rp=\'150ohm\' Rs=\'24ohm\'', ID=150)
+		Map(V='L1=\'1.5nH\' Rp=\'150ohm\' Rs=\'28ohm\'', ID=142)
+		Map(V='L1=\'1.5nH\' Rp=\'150ohm\' Rs=\'30ohm\'', ID=141)
+		Map(V='L1=\'1.5nH\' Rp=\'150ohm\' Rs=\'32ohm\'', ID=140)
+		Map(V='L1=\'1.5nH\' Rp=\'150ohm\' Rs=\'38ohm\'', ID=139)
+		Map(V='L1=\'1.5nH\' Rp=\'150ohm\' Rs=\'44ohm\'', ID=138)
+		Map(V='L1=\'1.5nH\' Rp=\'150ohm\' Rs=\'48ohm\'', ID=137)
+		Map(V='L1=\'1.5nH\' Rp=\'150ohm\' Rs=\'54ohm\'', ID=136)
+		Map(V='L1=\'1.5nH\' Rp=\'150ohm\' Rs=\'62ohm\'', ID=135)
+		Map(V='L1=\'1.5nH\' Rp=\'150ohm\' Rs=\'64ohm\'', ID=134)
+		Map(V='L1=\'1.5nH\' Rp=\'150ohm\' Rs=\'8ohm\'', ID=147)
+		Map(V='L1=\'1.6000000000000001nH\'', ID=25)
+		Map(V='L1=\'1.8999999999999999nH\'', ID=17)
+		Map(V='L1=\'1.8nH\'', ID=24)
+		Map(V='L1=\'1nH\'', ID=16)
+		Map(V='L1=\'1nH\' Rp=\'145ohm\' Rs=\'22ohm\'', ID=122)
+		Map(V='L1=\'2.2999999999999998nH\'', ID=23)
+		Map(V='L1=\'2.3999999999999999nH\'', ID=19)
+		Map(V='L1=\'2.5nH\'', ID=20)
+		Map(V='L1=\'2.7000000000000002nH\'', ID=21)
+		Map(V='L1=\'2.7999999999999998nH\'', ID=22)
+		Map(V='L1=\'2nH\'', ID=18)
+	$end 'VariationIDs'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=9, Instance=\'L1=\\\'1.5nH\\\' l2=\\\'22mm\\\' Rp=\\\'150ohm\\\' Rs=\\\'18ohm\\\'\', Solution=8, VersionID=255)'='SolutionBlock167'
+	'SolutionKey(SimSetup=9, Instance=\'SetupDefinition\', Solution=-1, VersionID=255)'='SolutionBlock166'
+	'SolutionKey(SimSetup=9, Instance=\'SolutionDefinition\', Solution=8, VersionID=255)'='SolutionBlock165'
+$end 'BlockMapName'
+$begin 'SolutionBlock165'
+	SolutionName='LinearFrequency'
+	SolutionID=8
+	V=255
+	$begin 'States'
+		F(VID=235, Ver=255)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	AlterName=''
+$end 'SolutionBlock165'
+$begin 'SolutionBlock166'
+	SimSetupID=9
+	SimSetupName='LinearFrequency'
+	VersionID=255
+	DefaultSol=8
+$end 'SolutionBlock166'
+$begin 'SolutionBlock167'
+	VariationDataID=-1
+	File='DV235_S8_V255.cir'
+$end 'SolutionBlock167'
+$begin 'ResponseSurfaceCache'
+	ResponseSurfaceCache()
+$end 'ResponseSurfaceCache'
+$begin '$index$'
+	$begin '$index$'
+		ResponseSurfaceCache(pos=9542, lin=182, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=8596, lin=151, lvl=0)
+		SolutionBlock165(pos=9032, lin=157, lvl=0)
+		SolutionBlock166(pos=9321, lin=172, lvl=0)
+		SolutionBlock167(pos=9446, lin=178, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=9624, lin=185, lvl=0)
+	$end '$index$'
+$end '$index$'
