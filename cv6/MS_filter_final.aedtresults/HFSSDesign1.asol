@@ -1,0 +1,312 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002022, month=000000000003, day=000000000016, hour=000000000014, min=000000000020, sec=000000000029)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000010006, lin=000000000290, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='HFSSDesign1'
+	VersionID=418
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=522
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='hbox=\'8mm\' hcu=\'0.035000000000000003mm\' hs=\'0.79000000000000004mm\' l50=\'10mm\' lhi=\'13.5mm\' llo=\'11mm\' ls=\'30mm\' mezera=\'2mm\' w50=\'1.45mm\' wa=\'10mm\' whi=\'0.40000000000000002mm\' wlo=\'4mm\' ws=\'20mm\'', ID=505)
+		Map(V='hbox=\'8mm\' hcu=\'0.035000000000000003mm\' hs=\'0.79000000000000004mm\' l50=\'10mm\' lhi=\'13.5mm\' llo=\'11mm\' ls=\'30mm\' w50=\'1.45mm\' wa=\'25mm\' whi=\'0.40000000000000002mm\' ws=\'50mm\'', ID=212)
+		Map(V='hbox=\'8mm\' hcu=\'0.035000000000000003mm\' hs=\'0.79000000000000004mm\' l50=\'10mm\' lhi=\'13.5mm\' ls=\'30mm\' w50=\'1.45mm\' wa=\'25mm\' whi=\'0.40000000000000002mm\' ws=\'50mm\'', ID=211)
+		Map(V='hbox=\'8mm\' hcu=\'0.035000000000000003mm\' hs=\'0.79000000000000004mm\' l50=\'10mm\' lhi=\'13.5mm\' ls=\'30mm\' w50=\'1.45mm\' wa=\'25mm\' ws=\'50mm\'', ID=210)
+		Map(V='hbox=\'8mm\' hcu=\'0.035000000000000003mm\' hs=\'0.79000000000000004mm\' l50=\'10mm\' ls=\'30mm\' w50=\'1.45mm\' wa=\'25mm\' ws=\'50mm\'', ID=57)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=505, Ver=418, Dir='DV505_V418.imesh/')
+	$end 'InitialMeshes'
+	MeshAssemVersionID=58
+	$begin 'NextAssemVersionID'
+		NextUniqueID=59
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'DefinitionMeshes'
+		$begin 'DefMeshes_Comp-1'
+			DefinitionID=-1
+			VersionID=57
+			VIDMap('hbox=\'8mm\' hcu=\'0.035000000000000003mm\' hs=\'0.79000000000000004mm\' l50=\'10mm\' lhi=\'13.5mm\' llo=\'11mm\' mezera=\'2mm\' w50=\'1.45mm\' wa=\'10mm\' whi=\'0.40000000000000002mm\' wlo=\'4mm\' ws=\'20mm\'', 507, 'hbox=\'8mm\' hcu=\'0.035000000000000003mm\' hs=\'0.79000000000000004mm\' l50=\'10mm\' ls=\'30mm\' w50=\'1.45mm\' wa=\'25mm\' ws=\'50mm\'', 107)
+			DM(VID=507, Ver=57, Dir='NDV507_V57.dmesh/')
+		$end 'DefMeshes_Comp-1'
+	$end 'DefinitionMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=505, Ver=418, Dir='DV505_MI0_V418.sd/')
+		$end 'SubData'
+	$end 'MI'
+	VersionID2=419
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=53, Instance=\'SetupDefinition\', Solution=-1, VersionID=418)'='SolutionBlock20'
+	'SolutionKey(SimSetup=53, Instance=\'SolutionDefinition\', Solution=54, VersionID=418)'='SolutionBlock17'
+	'SolutionKey(SimSetup=53, Instance=\'SolutionDefinition\', Solution=55, VersionID=418)'='SolutionBlock18'
+	'SolutionKey(SimSetup=53, Instance=\'SolutionDefinition\', Solution=56, VersionID=418)'='SolutionBlock19'
+$end 'BlockMapName'
+$begin 'SolutionBlock20'
+	SimSetupID=53
+	SimSetupName='Setup1'
+	VersionID=418
+	$begin 'EmConvergenceData'
+		EmConv(VID=505, Ver=418, EmConv='DV505_S53_V418.EMConvData')
+	$end 'EmConvergenceData'
+	IsImported=false
+	IsTable=false
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		M(VID=505, Ver=418, Dir='DV505_S53_V418.cmesh/')
+	$end 'CurrMeshes'
+	MeshAssemVersionID=38
+	$begin 'NextAssemVersionID'
+		NextUniqueID=39
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'ADP'
+		$begin 'SubData'
+			ID=10
+			ADP(VID=505, Ver=418, Dir='DV505_S53_ADP10_V418.sd/')
+		$end 'SubData'
+	$end 'ADP'
+	$begin 'SU'
+		$begin 'SubData'
+			ID=1
+			SU(VID=505, Ver=418, File='DV505_S53_SD1_V418.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			SU(VID=505, Ver=418, File='DV505_S53_SD2_V418.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			SU(VID=505, Ver=418, File='DV505_S53_SD3_V418.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			SU(VID=505, Ver=418, File='DV505_S53_SD4_V418.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			SU(VID=505, Ver=418, File='DV505_S53_SD5_V418.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			SU(VID=505, Ver=418, File='DV505_S53_SD6_V418.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			SU(VID=505, Ver=418, File='DV505_S53_SD7_V418.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=8
+			SU(VID=505, Ver=418, File='DV505_S53_SD8_V418.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=9
+			SU(VID=505, Ver=418, File='DV505_S53_SD9_V418.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=10
+			SU(VID=505, Ver=418, File='DV505_S53_SD10_V418.su')
+		$end 'SubData'
+	$end 'SU'
+	$begin 'WaveAdapt'
+		WA(VID=505, Ver=418, A=1)
+	$end 'WaveAdapt'
+	$begin 'LastPassNumbers'
+		LP(VID=505, Ver=418, P=10)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=505, Ver=418, File='DV505_S53_V418.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=505, Ver=418, Dir='DV505_S53_MI0_V418.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock20'
+$begin 'SolutionBlock18'
+	SolutionName='LastAdaptive'
+	SolutionID=55
+	V=418
+	$begin 'States'
+		F(VID=505, Ver=418)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(3125000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=505, Ver=418, File='DV505_SOL55_M0_V418.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(112, 3125000000)
+		$begin 'DataMap'
+			VID=505
+			Ver=418
+			F(DblID=112, Dir='DV505_S55_V418_F112/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock18'
+$begin 'SolutionBlock17'
+	SolutionName='AdaptivePass'
+	SolutionID=54
+	V=418
+	$begin 'States'
+		F(VID=505, Ver=418)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(3125000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=1
+			M(VID=505, Ver=418, File='DV505_SOL54_M1_V418.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			M(VID=505, Ver=418, File='DV505_SOL54_M2_V418.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			M(VID=505, Ver=418, File='DV505_SOL54_M3_V418.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			M(VID=505, Ver=418, File='DV505_SOL54_M4_V418.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			M(VID=505, Ver=418, File='DV505_SOL54_M5_V418.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			M(VID=505, Ver=418, File='DV505_SOL54_M6_V418.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			M(VID=505, Ver=418, File='DV505_SOL54_M7_V418.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=8
+			M(VID=505, Ver=418, File='DV505_SOL54_M8_V418.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=9
+			M(VID=505, Ver=418, File='DV505_SOL54_M9_V418.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=10
+			M(VID=505, Ver=418, File='DV505_SOL54_M10_V418.sd')
+		$end 'SubData'
+	$end 'M'
+$end 'SolutionBlock17'
+$begin 'SolutionBlock19'
+	SolutionName='Sweep'
+	SolutionID=56
+	V=418
+	$begin 'States'
+		F(VID=505, Ver=418)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(250000000, 365000000, 480000000, 595000000, 710000000, 825000000, 940000000, 1055000000, 1170000000, 1285000000, 1400000000, 1515000000, 1630000000, 1745000000, 1860000000, 1975000000, 2090000000, 2205000000, 2320000000, 2435000000, 2550000000, 2665000000, 2780000000, 2895000000, 3010000000, 3125000000, 3240000000, 3355000000, 3470000000, 3585000000, 3700000000, 3815000000, 3930000000, 4045000000, 4160000000, 4275000000, 4390000000, 4505000000, 4620000000, 4735000000, 4850000000, 4965000000, 5080000000, 5195000000, 5310000000, 5425000000, 5540000000, 5655000000, 5770000000, 5885000000, 6000000000)
+		SolutionType=5
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=0
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=505, Ver=418, File='DV505_SOL56_M0_V418.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(149, 6000000000, 150, 250000000, 151, 3125000000, 152, 1687500000, 153, 4562500000, 154, 5281250000, 155, 5640625000, 156, 5460937500, 157, 5550781249.999999, 207, 4921875000, 512, 968750000, 514, 609375000, 516, 2406250000, 518, 3843750000, 520, 4203125000)
+		$begin 'DataMap'
+			VID=505
+			Ver=418
+			F(DblID=150, Dir='DV505_S56_V418_F150/')
+			F(DblID=514, Dir='DV505_S56_V418_F514/')
+			F(DblID=512, Dir='DV505_S56_V418_F512/')
+			F(DblID=152, Dir='DV505_S56_V418_F152/')
+			F(DblID=516, Dir='DV505_S56_V418_F516/')
+			F(DblID=151, Dir='DV505_S56_V418_F151/')
+			F(DblID=518, Dir='DV505_S56_V418_F518/')
+			F(DblID=520, Dir='DV505_S56_V418_F520/')
+			F(DblID=153, Dir='DV505_S56_V418_F153/')
+			F(DblID=154, Dir='DV505_S56_V418_F154/')
+			F(DblID=155, Dir='DV505_S56_V418_F155/')
+			F(DblID=149, Dir='DV505_S56_V418_F149/')
+		$end 'DataMap'
+	$end 'Fields'
+	$begin 'TransientSolveStauts'
+		SS(VID=505, Ver=418, SS=1)
+	$end 'TransientSolveStauts'
+	$begin 'SolverUsage'
+		IDDblMap(138, 6000000000, 139, 250000000, 141, 1687500000, 142, 4562500000, 143, 5281250000, 144, 5640625000, 145, 5460937500, 146, 5550781249.999999, 208, 4921875000, 513, 968750000, 515, 609375000, 517, 2406250000, 519, 3843750000, 521, 4203125000)
+		$begin 'DataMap'
+			VID=505
+			Ver=418
+			SU(DblID=139, SU='DV505_S56_V418_F139_SU.txt')
+			SU(DblID=515, SU='DV505_S56_V418_F515_SU.txt')
+			SU(DblID=513, SU='DV505_S56_V418_F513_SU.txt')
+			SU(DblID=141, SU='DV505_S56_V418_F141_SU.txt')
+			SU(DblID=517, SU='DV505_S56_V418_F517_SU.txt')
+			SU(DblID=519, SU='DV505_S56_V418_F519_SU.txt')
+			SU(DblID=521, SU='DV505_S56_V418_F521_SU.txt')
+			SU(DblID=142, SU='DV505_S56_V418_F142_SU.txt')
+			SU(DblID=143, SU='DV505_S56_V418_F143_SU.txt')
+			SU(DblID=144, SU='DV505_S56_V418_F144_SU.txt')
+			SU(DblID=138, SU='DV505_S56_V418_F138_SU.txt')
+		$end 'DataMap'
+	$end 'SolverUsage'
+$end 'SolutionBlock19'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=2529, lin=42, lvl=0)
+		SolutionBlock17(pos=5655, lin=164, lvl=0)
+		SolutionBlock18(pos=4992, lin=131, lvl=0)
+		SolutionBlock19(pos=7040, lin=225, lvl=0)
+		SolutionBlock20(pos=3025, lin=49, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=10006, lin=290, lvl=0)
+	$end '$index$'
+$end '$index$'
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

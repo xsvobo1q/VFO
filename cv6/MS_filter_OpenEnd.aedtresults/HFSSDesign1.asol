@@ -1,0 +1,311 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002022, month=000000000003, day=000000000016, hour=000000000014, min=000000000030, sec=000000000004)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000010435, lin=000000000289, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='HFSSDesign1'
+	VersionID=522
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=618
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='hbox=\'8mm\' hcu=\'0.035000000000000003mm\' hs=\'0.79000000000000004mm\' l50=\'10mm\' lhi=\'13.5mm\' llo=\'11mm\' ls=\'30mm\' mezera=\'2mm\' w50=\'1.45mm\' wa=\'10mm\' whi=\'0.40000000000000002mm\' wlo=\'4mm\' ws=\'20mm\'', ID=505)
+		Map(V='hbox=\'8mm\' hcu=\'0.035000000000000003mm\' hs=\'0.79000000000000004mm\' l50=\'10mm\' lhi=\'13.5mm\' llo=\'11mm\' ls=\'30mm\' w50=\'1.45mm\' wa=\'25mm\' whi=\'0.40000000000000002mm\' ws=\'50mm\'', ID=212)
+		Map(V='hbox=\'8mm\' hcu=\'0.035000000000000003mm\' hs=\'0.79000000000000004mm\' l50=\'10mm\' lhi=\'13.5mm\' ls=\'30mm\' w50=\'1.45mm\' wa=\'25mm\' whi=\'0.40000000000000002mm\' ws=\'50mm\'', ID=211)
+		Map(V='hbox=\'8mm\' hcu=\'0.035000000000000003mm\' hs=\'0.79000000000000004mm\' l50=\'10mm\' lhi=\'13.5mm\' ls=\'30mm\' w50=\'1.45mm\' wa=\'25mm\' ws=\'50mm\'', ID=210)
+		Map(V='hbox=\'8mm\' hcu=\'0.035000000000000003mm\' hs=\'0.79000000000000004mm\' l50=\'10mm\' lhi=\'16.199999999999999mm\' llo=\'4mm\' ls=\'30mm\' mezera=\'2mm\' w50=\'1.45mm\' wa=\'5mm\' whi=\'0.40000000000000002mm\' wlo=\'10.5mm\' ws=\'20mm\'', ID=612)
+		Map(V='hbox=\'8mm\' hcu=\'0.035000000000000003mm\' hs=\'0.79000000000000004mm\' l50=\'10mm\' ls=\'30mm\' w50=\'1.45mm\' wa=\'25mm\' ws=\'50mm\'', ID=57)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=612, Ver=522, Dir='DV612_V522.imesh/')
+	$end 'InitialMeshes'
+	MeshAssemVersionID=60
+	$begin 'NextAssemVersionID'
+		NextUniqueID=61
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'DefinitionMeshes'
+		$begin 'DefMeshes_Comp-1'
+			DefinitionID=-1
+			VersionID=59
+			VIDMap('hbox=\'8mm\' hcu=\'0.035000000000000003mm\' hs=\'0.79000000000000004mm\' l50=\'10mm\' lhi=\'13.5mm\' llo=\'11mm\' mezera=\'2mm\' w50=\'1.45mm\' wa=\'10mm\' whi=\'0.40000000000000002mm\' wlo=\'4mm\' ws=\'20mm\'', 507, 'hbox=\'8mm\' hcu=\'0.035000000000000003mm\' hs=\'0.79000000000000004mm\' l50=\'10mm\' lhi=\'16.199999999999999mm\' llo=\'4mm\' mezera=\'2mm\' w50=\'1.45mm\' wa=\'5mm\' whi=\'0.40000000000000002mm\' wlo=\'10.5mm\' ws=\'20mm\'', 614, 'hbox=\'8mm\' hcu=\'0.035000000000000003mm\' hs=\'0.79000000000000004mm\' l50=\'10mm\' ls=\'30mm\' w50=\'1.45mm\' wa=\'25mm\' ws=\'50mm\'', 107)
+			DM(VID=614, Ver=59, Dir='NDV614_V59.dmesh/')
+		$end 'DefMeshes_Comp-1'
+	$end 'DefinitionMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=612, Ver=522, Dir='DV612_MI0_V522.sd/')
+		$end 'SubData'
+	$end 'MI'
+	VersionID2=523
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=53, Instance=\'SetupDefinition\', Solution=-1, VersionID=522)'='SolutionBlock24'
+	'SolutionKey(SimSetup=53, Instance=\'SolutionDefinition\', Solution=54, VersionID=522)'='SolutionBlock21'
+	'SolutionKey(SimSetup=53, Instance=\'SolutionDefinition\', Solution=55, VersionID=522)'='SolutionBlock22'
+	'SolutionKey(SimSetup=53, Instance=\'SolutionDefinition\', Solution=56, VersionID=522)'='SolutionBlock23'
+$end 'BlockMapName'
+$begin 'SolutionBlock24'
+	SimSetupID=53
+	SimSetupName='Setup1'
+	VersionID=522
+	$begin 'EmConvergenceData'
+		EmConv(VID=612, Ver=522, EmConv='DV612_S53_V522.EMConvData')
+	$end 'EmConvergenceData'
+	IsImported=false
+	IsTable=false
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		M(VID=612, Ver=522, Dir='DV612_S53_V522.cmesh/')
+	$end 'CurrMeshes'
+	MeshAssemVersionID=40
+	$begin 'NextAssemVersionID'
+		NextUniqueID=41
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'ADP'
+		$begin 'SubData'
+			ID=10
+			ADP(VID=612, Ver=522, Dir='DV612_S53_ADP10_V522.sd/')
+		$end 'SubData'
+	$end 'ADP'
+	$begin 'SU'
+		$begin 'SubData'
+			ID=1
+			SU(VID=612, Ver=522, File='DV612_S53_SD1_V522.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			SU(VID=612, Ver=522, File='DV612_S53_SD2_V522.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			SU(VID=612, Ver=522, File='DV612_S53_SD3_V522.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			SU(VID=612, Ver=522, File='DV612_S53_SD4_V522.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			SU(VID=612, Ver=522, File='DV612_S53_SD5_V522.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			SU(VID=612, Ver=522, File='DV612_S53_SD6_V522.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			SU(VID=612, Ver=522, File='DV612_S53_SD7_V522.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=8
+			SU(VID=612, Ver=522, File='DV612_S53_SD8_V522.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=9
+			SU(VID=612, Ver=522, File='DV612_S53_SD9_V522.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=10
+			SU(VID=612, Ver=522, File='DV612_S53_SD10_V522.su')
+		$end 'SubData'
+	$end 'SU'
+	$begin 'WaveAdapt'
+		WA(VID=612, Ver=522, A=1)
+	$end 'WaveAdapt'
+	$begin 'LastPassNumbers'
+		LP(VID=612, Ver=522, P=10)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=612, Ver=522, File='DV612_S53_V522.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=612, Ver=522, Dir='DV612_S53_MI0_V522.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock24'
+$begin 'SolutionBlock22'
+	SolutionName='LastAdaptive'
+	SolutionID=55
+	V=522
+	$begin 'States'
+		F(VID=612, Ver=522)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(3125000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=612, Ver=522, File='DV612_SOL55_M0_V522.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(112, 3125000000)
+		$begin 'DataMap'
+			VID=612
+			Ver=522
+			F(DblID=112, Dir='DV612_S55_V522_F112/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock22'
+$begin 'SolutionBlock21'
+	SolutionName='AdaptivePass'
+	SolutionID=54
+	V=522
+	$begin 'States'
+		F(VID=612, Ver=522)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(3125000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=1
+			M(VID=612, Ver=522, File='DV612_SOL54_M1_V522.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			M(VID=612, Ver=522, File='DV612_SOL54_M2_V522.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			M(VID=612, Ver=522, File='DV612_SOL54_M3_V522.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			M(VID=612, Ver=522, File='DV612_SOL54_M4_V522.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			M(VID=612, Ver=522, File='DV612_SOL54_M5_V522.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			M(VID=612, Ver=522, File='DV612_SOL54_M6_V522.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			M(VID=612, Ver=522, File='DV612_SOL54_M7_V522.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=8
+			M(VID=612, Ver=522, File='DV612_SOL54_M8_V522.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=9
+			M(VID=612, Ver=522, File='DV612_SOL54_M9_V522.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=10
+			M(VID=612, Ver=522, File='DV612_SOL54_M10_V522.sd')
+		$end 'SubData'
+	$end 'M'
+$end 'SolutionBlock21'
+$begin 'SolutionBlock23'
+	SolutionName='Sweep'
+	SolutionID=56
+	V=522
+	$begin 'States'
+		F(VID=612, Ver=522)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(250000000, 365000000, 480000000, 595000000, 710000000, 825000000, 940000000, 1055000000, 1170000000, 1285000000, 1400000000, 1515000000, 1630000000, 1745000000, 1860000000, 1975000000, 2090000000, 2205000000, 2320000000, 2435000000, 2550000000, 2665000000, 2780000000, 2895000000, 3010000000, 3125000000, 3240000000, 3355000000, 3470000000, 3585000000, 3700000000, 3815000000, 3930000000, 4045000000, 4160000000, 4275000000, 4390000000, 4505000000, 4620000000, 4735000000, 4850000000, 4965000000, 5080000000, 5195000000, 5310000000, 5425000000, 5540000000, 5655000000, 5770000000, 5885000000, 6000000000)
+		SolutionType=5
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=0
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=612, Ver=522, File='DV612_SOL56_M0_V522.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(149, 6000000000, 150, 250000000, 151, 3125000000, 152, 1687500000, 153, 4562500000, 154, 5281250000, 155, 5640625000, 156, 5460937500, 157, 5550781249.999999, 207, 4921875000, 512, 968750000, 514, 609375000, 516, 2406250000, 518, 3843750000, 520, 4203125000, 616, 1328125000)
+		$begin 'DataMap'
+			VID=612
+			Ver=522
+			F(DblID=150, Dir='DV612_S56_V522_F150/')
+			F(DblID=512, Dir='DV612_S56_V522_F512/')
+			F(DblID=616, Dir='DV612_S56_V522_F616/')
+			F(DblID=152, Dir='DV612_S56_V522_F152/')
+			F(DblID=516, Dir='DV612_S56_V522_F516/')
+			F(DblID=151, Dir='DV612_S56_V522_F151/')
+			F(DblID=518, Dir='DV612_S56_V522_F518/')
+			F(DblID=153, Dir='DV612_S56_V522_F153/')
+			F(DblID=207, Dir='DV612_S56_V522_F207/')
+			F(DblID=154, Dir='DV612_S56_V522_F154/')
+			F(DblID=149, Dir='DV612_S56_V522_F149/')
+		$end 'DataMap'
+	$end 'Fields'
+	$begin 'TransientSolveStauts'
+		SS(VID=612, Ver=522, SS=1)
+	$end 'TransientSolveStauts'
+	$begin 'SolverUsage'
+		IDDblMap(138, 6000000000, 139, 250000000, 141, 1687500000, 142, 4562500000, 143, 5281250000, 144, 5640625000, 145, 5460937500, 146, 5550781249.999999, 208, 4921875000, 513, 968750000, 515, 609375000, 517, 2406250000, 519, 3843750000, 521, 4203125000, 617, 1328125000)
+		$begin 'DataMap'
+			VID=612
+			Ver=522
+			SU(DblID=139, SU='DV612_S56_V522_F139_SU.txt')
+			SU(DblID=513, SU='DV612_S56_V522_F513_SU.txt')
+			SU(DblID=617, SU='DV612_S56_V522_F617_SU.txt')
+			SU(DblID=141, SU='DV612_S56_V522_F141_SU.txt')
+			SU(DblID=517, SU='DV612_S56_V522_F517_SU.txt')
+			SU(DblID=519, SU='DV612_S56_V522_F519_SU.txt')
+			SU(DblID=142, SU='DV612_S56_V522_F142_SU.txt')
+			SU(DblID=208, SU='DV612_S56_V522_F208_SU.txt')
+			SU(DblID=143, SU='DV612_S56_V522_F143_SU.txt')
+			SU(DblID=138, SU='DV612_S56_V522_F138_SU.txt')
+		$end 'DataMap'
+	$end 'SolverUsage'
+$end 'SolutionBlock23'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=3018, lin=43, lvl=0)
+		SolutionBlock21(pos=6144, lin=165, lvl=0)
+		SolutionBlock22(pos=5481, lin=132, lvl=0)
+		SolutionBlock23(pos=7529, lin=226, lvl=0)
+		SolutionBlock24(pos=3514, lin=50, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=10435, lin=289, lvl=0)
+	$end '$index$'
+$end '$index$'
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
