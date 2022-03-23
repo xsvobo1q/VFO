@@ -1,0 +1,228 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002022, month=000000000003, day=000000000023, hour=000000000014, min=000000000021, sec=000000000047)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000010511, lin=000000000191, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock62'
+	VariationDataID=-1
+	File='DV138_S17_V127.cir'
+$end 'SolutionBlock62'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=18, Instance=\'SetupDefinition\', Solution=-1, VersionID=127)'='SolutionBlock60'
+	'SolutionKey(SimSetup=18, Instance=\'SolutionDefinition\', Solution=17, VersionID=127)'='SolutionBlock61'
+	'SolutionKey(SimSetup=18, Instance=\'cp=\\\'0.80000000000000004pF\\\' L=\\\'24.5mm\\\' l1=\\\'5.04mm\\\' sp=\\\'0.92000000000000004mm\\\' wr=\\\'1.5mm\\\'\', Solution=17, VersionID=127)'='SolutionBlock50'
+	'SolutionKey(SimSetup=18, Instance=\'cp=\\\'0.82499999999999996pF\\\' L=\\\'24.5mm\\\' l1=\\\'5.04mm\\\' sp=\\\'0.92000000000000004mm\\\' wr=\\\'1.5mm\\\'\', Solution=17, VersionID=127)'='SolutionBlock51'
+	'SolutionKey(SimSetup=18, Instance=\'cp=\\\'0.84999999999999998pF\\\' L=\\\'24.5mm\\\' l1=\\\'5.04mm\\\' sp=\\\'0.92000000000000004mm\\\' wr=\\\'1.5mm\\\'\', Solution=17, VersionID=127)'='SolutionBlock52'
+	'SolutionKey(SimSetup=18, Instance=\'cp=\\\'0.875pF\\\' L=\\\'24.5mm\\\' l1=\\\'5.04mm\\\' sp=\\\'0.92000000000000004mm\\\' wr=\\\'1.5mm\\\'\', Solution=17, VersionID=127)'='SolutionBlock53'
+	'SolutionKey(SimSetup=18, Instance=\'cp=\\\'0.90000000000000002pF\\\' L=\\\'24.5mm\\\' l1=\\\'5.04mm\\\' sp=\\\'0.92000000000000004mm\\\' wr=\\\'1.5mm\\\'\', Solution=17, VersionID=127)'='SolutionBlock54'
+	'SolutionKey(SimSetup=18, Instance=\'cp=\\\'0.92500000000000004pF\\\' L=\\\'24.5mm\\\' l1=\\\'5.04mm\\\' sp=\\\'0.92000000000000004mm\\\' wr=\\\'1.5mm\\\'\', Solution=17, VersionID=127)'='SolutionBlock55'
+	'SolutionKey(SimSetup=18, Instance=\'cp=\\\'0.94999999999999996pF\\\' L=\\\'24.5mm\\\' l1=\\\'5.04mm\\\' sp=\\\'0.92000000000000004mm\\\' wr=\\\'1.5mm\\\'\', Solution=17, VersionID=127)'='SolutionBlock56'
+	'SolutionKey(SimSetup=18, Instance=\'cp=\\\'0.97499999999999998pF\\\' L=\\\'24.5mm\\\' l1=\\\'5.04mm\\\' sp=\\\'0.92000000000000004mm\\\' wr=\\\'1.5mm\\\'\', Solution=17, VersionID=127)'='SolutionBlock57'
+	'SolutionKey(SimSetup=18, Instance=\'cp=\\\'1.0249999999999999pF\\\' L=\\\'24.5mm\\\' l1=\\\'5.04mm\\\' sp=\\\'0.92000000000000004mm\\\' wr=\\\'1.5mm\\\'\', Solution=17, VersionID=127)'='SolutionBlock58'
+	'SolutionKey(SimSetup=18, Instance=\'cp=\\\'1.05pF\\\' L=\\\'24.5mm\\\' l1=\\\'5.04mm\\\' sp=\\\'0.92000000000000004mm\\\' wr=\\\'1.5mm\\\'\', Solution=17, VersionID=127)'='SolutionBlock62'
+	'SolutionKey(SimSetup=18, Instance=\'cp=\\\'1.075pF\\\' L=\\\'24.5mm\\\' l1=\\\'5.04mm\\\' sp=\\\'0.92000000000000004mm\\\' wr=\\\'1.5mm\\\'\', Solution=17, VersionID=127)'='SolutionBlock63'
+	'SolutionKey(SimSetup=18, Instance=\'cp=\\\'1.1000000000000001pF\\\' L=\\\'24.5mm\\\' l1=\\\'5.04mm\\\' sp=\\\'0.92000000000000004mm\\\' wr=\\\'1.5mm\\\'\', Solution=17, VersionID=127)'='SolutionBlock64'
+	'SolutionKey(SimSetup=18, Instance=\'cp=\\\'1.125pF\\\' L=\\\'24.5mm\\\' l1=\\\'5.04mm\\\' sp=\\\'0.92000000000000004mm\\\' wr=\\\'1.5mm\\\'\', Solution=17, VersionID=127)'='SolutionBlock65'
+	'SolutionKey(SimSetup=18, Instance=\'cp=\\\'1.1499999999999999pF\\\' L=\\\'24.5mm\\\' l1=\\\'5.04mm\\\' sp=\\\'0.92000000000000004mm\\\' wr=\\\'1.5mm\\\'\', Solution=17, VersionID=127)'='SolutionBlock66'
+	'SolutionKey(SimSetup=18, Instance=\'cp=\\\'1.175pF\\\' L=\\\'24.5mm\\\' l1=\\\'5.04mm\\\' sp=\\\'0.92000000000000004mm\\\' wr=\\\'1.5mm\\\'\', Solution=17, VersionID=127)'='SolutionBlock67'
+	'SolutionKey(SimSetup=18, Instance=\'cp=\\\'1.2pF\\\' L=\\\'24.5mm\\\' l1=\\\'5.04mm\\\' sp=\\\'0.92000000000000004mm\\\' wr=\\\'1.5mm\\\'\', Solution=17, VersionID=127)'='SolutionBlock68'
+	'SolutionKey(SimSetup=18, Instance=\'cp=\\\'1pF\\\' L=\\\'24.5mm\\\' l1=\\\'5.04mm\\\' sp=\\\'0.92000000000000004mm\\\' wr=\\\'1.5mm\\\'\', Solution=17, VersionID=127)'='SolutionBlock59'
+$end 'BlockMapName'
+$begin 'SolutionBlock1'
+	ProductName='Circuit Design'
+	CircuitName='Circuit1'
+	VersionID=127
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=145
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='cp=\'0.80000000000000004pF\' L=\'24.5mm\' l1=\'5.04mm\' sp=\'0.92000000000000004mm\' wr=\'1.5mm\'', ID=128)
+		Map(V='cp=\'0.82499999999999996pF\' L=\'24.5mm\' l1=\'5.04mm\' sp=\'0.92000000000000004mm\' wr=\'1.5mm\'', ID=129)
+		Map(V='cp=\'0.84999999999999998pF\' L=\'24.5mm\' l1=\'5.04mm\' sp=\'0.92000000000000004mm\' wr=\'1.5mm\'', ID=130)
+		Map(V='cp=\'0.875pF\' L=\'24.5mm\' l1=\'5.04mm\' sp=\'0.92000000000000004mm\' wr=\'1.5mm\'', ID=131)
+		Map(V='cp=\'0.90000000000000002pF\' L=\'24.5mm\' l1=\'5.04mm\' sp=\'0.92000000000000004mm\' wr=\'1.5mm\'', ID=132)
+		Map(V='cp=\'0.92500000000000004pF\' L=\'24.5mm\' l1=\'5.04mm\' sp=\'0.92000000000000004mm\' wr=\'1.5mm\'', ID=133)
+		Map(V='cp=\'0.94999999999999996pF\' L=\'24.5mm\' l1=\'5.04mm\' sp=\'0.92000000000000004mm\' wr=\'1.5mm\'', ID=134)
+		Map(V='cp=\'0.97499999999999998pF\' L=\'24.5mm\' l1=\'5.04mm\' sp=\'0.92000000000000004mm\' wr=\'1.5mm\'', ID=135)
+		Map(V='cp=\'1.0249999999999999pF\' L=\'24.5mm\' l1=\'5.04mm\' sp=\'0.92000000000000004mm\' wr=\'1.5mm\'', ID=137)
+		Map(V='cp=\'1.05pF\' L=\'24.5mm\' l1=\'5.04mm\' sp=\'0.92000000000000004mm\' wr=\'1.5mm\'', ID=138)
+		Map(V='cp=\'1.075pF\' L=\'24.5mm\' l1=\'5.04mm\' sp=\'0.92000000000000004mm\' wr=\'1.5mm\'', ID=139)
+		Map(V='cp=\'1.1000000000000001pF\' L=\'24.5mm\' l1=\'5.04mm\' sp=\'0.92000000000000004mm\' wr=\'1.5mm\'', ID=140)
+		Map(V='cp=\'1.125pF\' L=\'24.5mm\' l1=\'5.04mm\' sp=\'0.92000000000000004mm\' wr=\'1.5mm\'', ID=141)
+		Map(V='cp=\'1.1499999999999999pF\' L=\'24.5mm\' l1=\'5.04mm\' sp=\'0.92000000000000004mm\' wr=\'1.5mm\'', ID=142)
+		Map(V='cp=\'1.175pF\' L=\'24.5mm\' l1=\'5.04mm\' sp=\'0.92000000000000004mm\' wr=\'1.5mm\'', ID=143)
+		Map(V='cp=\'1.2pF\' L=\'24.5mm\' l1=\'5.04mm\' sp=\'0.92000000000000004mm\' wr=\'1.5mm\'', ID=144)
+		Map(V='cp=\'1pF\' L=\'24.5mm\' l1=\'5.04mm\' sp=\'0.92000000000000004mm\' wr=\'1.5mm\'', ID=136)
+		Map(V='L=\'20.5mm\' l1=\'5mm\' wr=\'1.5mm\'', ID=20)
+		Map(V='L=\'20mm\' l1=\'5mm\' wr=\'1.5mm\'', ID=19)
+		Map(V='L=\'21.5mm\' l1=\'5mm\' wr=\'1.5mm\'', ID=22)
+		Map(V='L=\'21mm\' l1=\'5mm\' wr=\'1.5mm\'', ID=21)
+		Map(V='L=\'22.5mm\' l1=\'5mm\' wr=\'1.5mm\'', ID=24)
+		Map(V='L=\'22mm\' l1=\'5mm\' wr=\'1.5mm\'', ID=23)
+		Map(V='L=\'23.5mm\' l1=\'5mm\' wr=\'1.5mm\'', ID=26)
+		Map(V='L=\'23mm\' l1=\'5mm\' wr=\'1.5mm\'', ID=25)
+		Map(V='L=\'24.5mm\' l1=\'15mm\' wr=\'1.5mm\'', ID=40)
+		Map(V='L=\'24.5mm\' l1=\'1mm\' sp=\'0.5mm\' wr=\'1.5mm\'', ID=82)
+		Map(V='L=\'24.5mm\' l1=\'1mm\' sp=\'0.92000000000000004mm\' wr=\'1.5mm\'', ID=85)
+		Map(V='L=\'24.5mm\' l1=\'1mm\' sp=\'0.93000000000000005mm\' wr=\'1.5mm\'', ID=84)
+		Map(V='L=\'24.5mm\' l1=\'1mm\' sp=\'1.5mm\' wr=\'1.5mm\'', ID=79)
+		Map(V='L=\'24.5mm\' l1=\'1mm\' sp=\'2.5mm\' wr=\'1.5mm\'', ID=83)
+		Map(V='L=\'24.5mm\' l1=\'2mm\' wr=\'1.5mm\'', ID=41)
+		Map(V='L=\'24.5mm\' l1=\'5.04mm\' sp=\'0.92000000000000004mm\' wr=\'1.5mm\'', ID=125)
+		Map(V='L=\'24.5mm\' l1=\'5.04mm\' sp=\'1.5mm\' wr=\'1.5mm\'', ID=78)
+		Map(V='L=\'24.5mm\' l1=\'5.04mm\' wr=\'1.5mm\'', ID=45)
+		Map(V='L=\'24.5mm\' l1=\'5.5mm\' wr=\'1.5mm\'', ID=44)
+		Map(V='L=\'24.5mm\' l1=\'5mm\' wr=\'1.5mm\'', ID=28)
+		Map(V='L=\'24mm\' l1=\'5mm\' wr=\'1.5mm\'', ID=27)
+		Map(V='L=\'25.5mm\' l1=\'5mm\' wr=\'1.5mm\'', ID=30)
+		Map(V='L=\'25mm\' l1=\'5mm\' wr=\'1.5mm\'', ID=29)
+		Map(V='L=\'26.5mm\' l1=\'5mm\' wr=\'1.5mm\'', ID=32)
+		Map(V='L=\'26mm\' l1=\'5mm\' wr=\'1.5mm\'', ID=31)
+		Map(V='L=\'27.5mm\' l1=\'5mm\' wr=\'1.5mm\'', ID=34)
+		Map(V='L=\'27mm\' l1=\'5mm\' wr=\'1.5mm\'', ID=33)
+		Map(V='L=\'28.5mm\' l1=\'5mm\' wr=\'1.5mm\'', ID=36)
+		Map(V='L=\'28mm\' l1=\'5mm\' wr=\'1.5mm\'', ID=35)
+		Map(V='L=\'29.5mm\' l1=\'5mm\' wr=\'1.5mm\'', ID=38)
+		Map(V='L=\'29mm\' l1=\'5mm\' wr=\'1.5mm\'', ID=37)
+		Map(V='L=\'30mm\' l1=\'5mm\' wr=\'1.5mm\'', ID=39)
+	$end 'VariationIDs'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock61'
+	SolutionName='LinearFrequency'
+	SolutionID=17
+	V=127
+	$begin 'States'
+		F(VID=128, Ver=127)
+		F(VID=129, Ver=127)
+		F(VID=130, Ver=127)
+		F(VID=131, Ver=127)
+		F(VID=132, Ver=127)
+		F(VID=133, Ver=127)
+		F(VID=134, Ver=127)
+		F(VID=135, Ver=127)
+		F(VID=136, Ver=127)
+		F(VID=137, Ver=127)
+		F(VID=138, Ver=127)
+		F(VID=139, Ver=127)
+		F(VID=140, Ver=127)
+		F(VID=141, Ver=127)
+		F(VID=142, Ver=127)
+		F(VID=143, Ver=127)
+		F(VID=144, Ver=127)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	AlterName=''
+$end 'SolutionBlock61'
+$begin 'SolutionBlock60'
+	SimSetupID=18
+	SimSetupName='LinearFrequency'
+	VersionID=127
+	DefaultSol=17
+$end 'SolutionBlock60'
+$begin 'SolutionBlock68'
+	VariationDataID=-1
+	File='DV144_S17_V127.cir'
+$end 'SolutionBlock68'
+$begin 'SolutionBlock67'
+	VariationDataID=-1
+	File='DV143_S17_V127.cir'
+$end 'SolutionBlock67'
+$begin 'SolutionBlock66'
+	VariationDataID=-1
+	File='DV142_S17_V127.cir'
+$end 'SolutionBlock66'
+$begin 'SolutionBlock65'
+	VariationDataID=-1
+	File='DV141_S17_V127.cir'
+$end 'SolutionBlock65'
+$begin 'SolutionBlock64'
+	VariationDataID=-1
+	File='DV140_S17_V127.cir'
+$end 'SolutionBlock64'
+$begin 'SolutionBlock63'
+	VariationDataID=-1
+	File='DV139_S17_V127.cir'
+$end 'SolutionBlock63'
+$begin 'SolutionBlock59'
+	VariationDataID=-1
+	File='DV136_S17_V127.cir'
+$end 'SolutionBlock59'
+$begin 'SolutionBlock58'
+	VariationDataID=-1
+	File='DV137_S17_V127.cir'
+$end 'SolutionBlock58'
+$begin 'SolutionBlock57'
+	VariationDataID=-1
+	File='DV135_S17_V127.cir'
+$end 'SolutionBlock57'
+$begin 'SolutionBlock56'
+	VariationDataID=-1
+	File='DV134_S17_V127.cir'
+$end 'SolutionBlock56'
+$begin 'SolutionBlock55'
+	VariationDataID=-1
+	File='DV133_S17_V127.cir'
+$end 'SolutionBlock55'
+$begin 'SolutionBlock54'
+	VariationDataID=-1
+	File='DV132_S17_V127.cir'
+$end 'SolutionBlock54'
+$begin 'SolutionBlock53'
+	VariationDataID=-1
+	File='DV131_S17_V127.cir'
+$end 'SolutionBlock53'
+$begin 'SolutionBlock52'
+	VariationDataID=-1
+	File='DV130_S17_V127.cir'
+$end 'SolutionBlock52'
+$begin 'SolutionBlock51'
+	VariationDataID=-1
+	File='DV129_S17_V127.cir'
+$end 'SolutionBlock51'
+$begin 'ResponseSurfaceCache'
+	ResponseSurfaceCache()
+$end 'ResponseSurfaceCache'
+$begin 'SolutionBlock50'
+	VariationDataID=-1
+	File='DV128_S17_V127.cir'
+$end 'SolutionBlock50'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock50(pos=10416, lin=187, lvl=0)
+		SolutionBlock62(pos=370, lin=1, lvl=0)
+		SolutionBlock1(pos=4141, lin=27, lvl=0)
+		BlockMapName(pos=465, lin=5, lvl=0)
+		SolutionBlock61(pos=8144, lin=87, lvl=0)
+		SolutionBlock60(pos=8784, lin=118, lvl=0)
+		SolutionBlock68(pos=8909, lin=124, lvl=0)
+		SolutionBlock67(pos=9004, lin=128, lvl=0)
+		SolutionBlock66(pos=9099, lin=132, lvl=0)
+		SolutionBlock65(pos=9194, lin=136, lvl=0)
+		SolutionBlock64(pos=9289, lin=140, lvl=0)
+		SolutionBlock63(pos=9384, lin=144, lvl=0)
+		SolutionBlock59(pos=9479, lin=148, lvl=0)
+		SolutionBlock58(pos=9574, lin=152, lvl=0)
+		SolutionBlock57(pos=9669, lin=156, lvl=0)
+		SolutionBlock56(pos=9764, lin=160, lvl=0)
+		SolutionBlock55(pos=9859, lin=164, lvl=0)
+		SolutionBlock54(pos=9954, lin=168, lvl=0)
+		SolutionBlock53(pos=10049, lin=172, lvl=0)
+		SolutionBlock52(pos=10144, lin=176, lvl=0)
+		SolutionBlock51(pos=10239, lin=180, lvl=0)
+		ResponseSurfaceCache(pos=10334, lin=184, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=10511, lin=191, lvl=0)
+	$end '$index$'
+$end '$index$'
