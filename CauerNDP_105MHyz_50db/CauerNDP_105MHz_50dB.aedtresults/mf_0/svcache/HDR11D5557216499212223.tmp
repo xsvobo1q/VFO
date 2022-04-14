@@ -1,0 +1,60 @@
+SimValueCacheVersionID=1
+$begin 'SimValueInfos'
+	NextUniqueID=4
+	MoveBackwards=false
+	$begin 'SimValue'
+		ID=0
+		$begin 'SimValueParams'
+			QuantityName='S(Port1,Port1)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=1
+		$begin 'SimValueParams'
+			QuantityName='S(Port2,Port1)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=2
+		$begin 'SimValueParams'
+			QuantityName='S(Port4,Port3)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=3
+		$begin 'SimValueParams'
+			QuantityName='S(Port6,Port5)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+$end 'SimValueInfos'
+$begin 'SimValueCache'
+	$begin 'DesignMap'
+		DesignID=0
+		$begin 'SolutionMap'
+			$begin 'ContextMap'
+				SolutionID=29
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=0
+						SimValueContext(3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=187
+						$begin 'MinorVVMap'
+							MajorVariation='c1=\'33pF\' c1id=\'32.530000000000001pF\' c1re=\'33pF\' c2=\'2.8799999999999999pF\' c2id=\'2.79pF\' c2re=\'2.8799999999999999pF\' c3=\'53.799999999999997pF\' c3id=\'53.119999999999997pF\' c3re=\'53.799999999999997pF\' c4=\'7.7999999999999998pF\' c4id=\'7.7300000000000004pF\' c4re=\'7.7999999999999998pF\' c5=\'28.800000000000001pF\' c5id=\'28.399999999999999pF\' c5re=\'28.800000000000001pF\' l1=\'100nH\' l1id=\'96.560000000000002nH\' l2=\'82nH\' l2id=\'82.629999999999995nH\''
+							MinorCacheFile='min60C85572164992741133.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+		$end 'SolutionMap'
+	$end 'DesignMap'
+$end 'SimValueCache'

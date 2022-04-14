@@ -1,0 +1,18 @@
+(status): Nexxim version: 2021.2.0 WIN64, build time: May 24 2021, 22:40:30
+
+(status): Analyzing D:/Documents/xsvobo1q/VFO/CauerNDP_105MHyz_50db/CauerNDP_105MHz_50dB.aedtresults/Circuit1/temp/DV109_S29_V187.cir.
+(info): Processing circuit for new analysis.
+omp(status): Requested number of threads in UI setting is 1
+circuit_details(status): Total device types: 4
+device type                                       number of devices
+----------------------------------------------------------------------
+capacitor                                         15
+inductor                                          4
+port_impedance                                    6
+s_element                                         2
+(status): License checkout took 3.776 seconds.
+(info): Starting analysis type LNA.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+(status): LNA cpu time = 0.113
+(info): Simulation succeeded. Total simulator time: 0:00:03
+(status): Start Time:  04/14/2022 10:37:23, End Time:  04/14/2022 10:37:27, Host PC-075, 
