@@ -1,0 +1,5 @@
+IsBigEndian false
+$begin 'ManagedFiles'
+	OptimetricsResults[0:]
+	svcache[2: 'HDR548513048165210390614.tmp', 'min2C65465216521107954.tmp']
+$end 'ManagedFiles'

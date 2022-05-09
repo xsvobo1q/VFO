@@ -1,0 +1,20 @@
+(status): Nexxim version: 2021.2.0 WIN64, build time: May 24 2021, 22:40:30
+
+(status): Analyzing D:/Documents/xsvobo1q/VFO/Amplifier/BF196W_amp.aedtresults/Circuit2/temp/DV3098_S49_V3100.cir.
+(info): Processing circuit for new analysis.
+omp(status): Requested number of threads in UI setting is 1
+circuit_details(status): Total device types: 5
+device type                                       number of devices
+----------------------------------------------------------------------
+capacitor                                         11
+inductor                                          2
+port_impedance                                    4
+resistor                                          10
+s_element                                         4
+(status): License checkout took 3.873 seconds.
+models:s_element(warning): s2 - S-parameter data in file: d:\documents\xsvobo1q\vfo\amplifier\bfp196w\bfp196w\bfp196w_w_noise_vce_3.0v_ic_10ma.s2p is not passive. Worst violation of 29.6072 at 1e+07 (Hz). Suspect active device.
+(info): Starting analysis type LNA.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+(status): LNA cpu time = 0.028
+(info): Simulation succeeded. Total simulator time: 0:00:03
+(status): Start Time:  05/09/2022 17:39:30, End Time:  05/09/2022 17:39:34, Host PC-075, 
