@@ -169,6 +169,19 @@ $begin 'SimValueCache'
 		$begin 'SolutionMap'
 			$begin 'ContextMap'
 				SolutionID=3101
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=0
+						SimValueContext(3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=3158
+						$begin 'MinorVVMap'
+							MajorVariation='C1=\'13.5pF\' C11_r=\'6.7999999999999998pF\' C1_r=\'10.5pF\' C2=\'14.900000000000002pF\' C2_r=\'15pF\' C3=\'4.7000000000000002pF\' L1=\'2.7000000000000002nH\' L2=\'6nH\' R1=\'330ohm\' Rb1=\'10kOhm\' Rb2=\'6.7999999999999998kOhm\' Rc1=\'100ohm\' Rc2=\'47ohm\''
+							MinorCacheFile='min786F176416521769626.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
 			$end 'ContextMap'
 		$end 'SolutionMap'
 	$end 'DesignMap'

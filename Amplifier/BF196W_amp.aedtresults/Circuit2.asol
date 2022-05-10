@@ -1,29 +1,25 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002022, month=000000000005, day=000000000010, hour=000000000011, min=000000000033, sec=000000000056)
+    time(year=000000002022, month=000000000005, day=000000000010, hour=000000000012, min=000000000002, sec=000000000042)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000617549, lin=000000002995, lvl=000000000000)
+    $index$(pos=000000617570, lin=000000002995, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
-$begin 'SolutionBlock2938'
-	VariationDataID=-1
-	File='DV3098_S3101_V0.cir'
-$end 'SolutionBlock2938'
-$begin 'SolutionBlock2939'
+$begin 'SolutionBlock2945'
 	SimSetupID=3102
 	SimSetupName='LinearFrequency'
-	VersionID=0
+	VersionID=3158
 	DefaultSol=3101
-$end 'SolutionBlock2939'
-$begin 'SolutionBlock2940'
+$end 'SolutionBlock2945'
+$begin 'SolutionBlock2946'
 	SolutionName='LinearFrequency'
 	SolutionID=3101
-	V=0
+	V=3158
 	$begin 'States'
-		F(VID=3098, Ver=0)
+		F(VID=3098, Ver=3158)
 	$end 'States'
 	$begin 'Definition'
 		SamplingInterpolation=false
@@ -32,20 +28,24 @@ $begin 'SolutionBlock2940'
 		CenterFreq=0
 	$end 'Definition'
 	AlterName=''
-$end 'SolutionBlock2940'
+$end 'SolutionBlock2946'
 $begin 'BlockMapName'
 	FileHeader='SolutionBlock1'
-	'SolutionKey(SimSetup=3102, Instance=\'C1=\\\'13.5pF\\\' C11_r=\\\'6.7999999999999998pF\\\' C1_r=\\\'10.5pF\\\' C2=\\\'14.900000000000002pF\\\' C2_r=\\\'15pF\\\' C3=\\\'4.7000000000000002pF\\\' L1=\\\'2.7000000000000002nH\\\' L2=\\\'6nH\\\' R1=\\\'330ohm\\\' Rb1=\\\'10kOhm\\\' Rb2=\\\'6.7999999999999998kOhm\\\' Rc1=\\\'100ohm\\\' Rc2=\\\'47ohm\\\'\', Solution=3101, VersionID=0)'='SolutionBlock2938'
-	'SolutionKey(SimSetup=3102, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock2939'
-	'SolutionKey(SimSetup=3102, Instance=\'SolutionDefinition\', Solution=3101, VersionID=0)'='SolutionBlock2940'
+	'SolutionKey(SimSetup=3102, Instance=\'C1=\\\'13.5pF\\\' C11_r=\\\'6.7999999999999998pF\\\' C1_r=\\\'10.5pF\\\' C2=\\\'14.900000000000002pF\\\' C2_r=\\\'15pF\\\' C3=\\\'4.7000000000000002pF\\\' L1=\\\'2.7000000000000002nH\\\' L2=\\\'6nH\\\' R1=\\\'330ohm\\\' Rb1=\\\'10kOhm\\\' Rb2=\\\'6.7999999999999998kOhm\\\' Rc1=\\\'100ohm\\\' Rc2=\\\'47ohm\\\'\', Solution=3101, VersionID=3158)'='SolutionBlock2944'
+	'SolutionKey(SimSetup=3102, Instance=\'SetupDefinition\', Solution=-1, VersionID=3158)'='SolutionBlock2945'
+	'SolutionKey(SimSetup=3102, Instance=\'SolutionDefinition\', Solution=3101, VersionID=3158)'='SolutionBlock2946'
 $end 'BlockMapName'
+$begin 'SolutionBlock2944'
+	VariationDataID=-1
+	File='DV3098_S3101_V3158.cir'
+$end 'SolutionBlock2944'
 $begin 'SolutionBlock1'
 	ProductName='Circuit Design'
 	CircuitName='Circuit2'
-	VersionID=3050
+	VersionID=3158
 	PostProcess=false
 	LossLess=true
-	NextUniqueID=3103
+	NextUniqueID=3159
 	MoveBackwards=false
 	$begin 'VariationIDs'
 		Map(V='C11_r=\'6.7999999999999998pF\' C1_r=\'10.5pF\' C2_r=\'15pF\' C3=\'4.7000000000000002pF\'', ID=3099)
@@ -3004,14 +3004,14 @@ $begin 'ResponseSurfaceCache'
 $end 'ResponseSurfaceCache'
 $begin '$index$'
 	$begin '$index$'
-		ResponseSurfaceCache(pos=617467, lin=2992, lvl=0)
-		SolutionBlock2938(pos=370, lin=1, lvl=0)
-		SolutionBlock1(pos=1583, lin=32, lvl=0)
-		BlockMapName(pos=892, lin=26, lvl=0)
-		SolutionBlock2940(pos=601, lin=11, lvl=0)
-		SolutionBlock2939(pos=470, lin=5, lvl=0)
+		ResponseSurfaceCache(pos=617488, lin=2992, lvl=0)
+		SolutionBlock2944(pos=1501, lin=28, lvl=0)
+		SolutionBlock1(pos=1604, lin=32, lvl=0)
+		BlockMapName(pos=801, lin=22, lvl=0)
+		SolutionBlock2946(pos=504, lin=7, lvl=0)
+		SolutionBlock2945(pos=370, lin=1, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=617549, lin=2995, lvl=0)
+		$index$(pos=617570, lin=2995, lvl=0)
 	$end '$index$'
 $end '$index$'
-                                                                                                                                     
+                                                                                                                                              

@@ -1,6 +1,6 @@
 SimValueCacheVersionID=1
 $begin 'SimValueInfos'
-	NextUniqueID=10
+	NextUniqueID=11
 	MoveBackwards=false
 	$begin 'SimValue'
 		ID=0
@@ -82,6 +82,14 @@ $begin 'SimValueInfos'
 			MatrixSize(0, 0)
 		$end 'SimValueParams'
 	$end 'SimValue'
+	$begin 'SimValue'
+		ID=10
+		$begin 'SimValueParams'
+			QuantityName='S(Port3,Port4)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
 $end 'SimValueInfos'
 $begin 'SimValueCache'
 	$begin 'DesignMap'
@@ -95,10 +103,10 @@ $begin 'SimValueCache'
 						SimValueContext(3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 					$end 'ReportTypeSolnDef'
 					$begin 'MajorVVMap'
-						VersionID=131
+						VersionID=134
 						$begin 'MinorVVMap'
 							MajorVariation='C1=\'13.5pF\' C11_r=\'6.7999999999999998pF\' C1_r=\'10.5pF\' C2=\'14.900000000000002pF\' C2_r=\'15pF\' C3=\'4.7000000000000002pF\' L1=\'2.7000000000000002nH\' L2=\'6nH\' R1=\'330ohm\' Rb1=\'10kOhm\' Rb2=\'6.7999999999999998kOhm\' Rc1=\'100ohm\' Rc2=\'47ohm\''
-							MinorCacheFile='min6B5511044165217593511.tmp'
+							MinorCacheFile='min75B7796016521767494.tmp'
 						$end 'MinorVVMap'
 					$end 'MajorVVMap'
 				$end 'VersionMap'

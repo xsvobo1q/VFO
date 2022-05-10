@@ -64,7 +64,7 @@ $begin 'AnsoftProject'
 	ReadVersion=9
 	$begin 'EDB'
 		Path=''
-		LastUpdateTimeStamp=1652175984
+		LastUpdateTimeStamp=1652176749
 	$end 'EDB'
 	$begin 'DesignMgrEnvironment'
 		CompInstCounter=110
@@ -119,8 +119,8 @@ $begin 'AnsoftProject'
 				thermal_expansion_coefficient='1.77e-05'
 				ModTime=1499970477
 				Library='Materials'
-				LibLocation='SysLibrary'
-				ModSinceLib=false
+				LibLocation='Project'
+				ModSinceLib=true
 			$end 'copper'
 			$begin 'FR4_epoxy'
 				CoordinateSystemType='Cartesian'
@@ -146,8 +146,8 @@ $begin 'AnsoftProject'
 				thermal_expansion_coefficient='1.5e-05'
 				ModTime=1499970477
 				Library='Materials'
-				LibLocation='SysLibrary'
-				ModSinceLib=false
+				LibLocation='Project'
+				ModSinceLib=true
 			$end 'FR4_epoxy'
 		$end 'Materials'
 		$begin 'SurfaceMaterials'
@@ -167,13 +167,13 @@ $begin 'AnsoftProject'
 				$begin 'PinDef'
 					Pin('Port1', -0.00508, 0, 0, 'N', 0, 0.00254, false, 0, true, '', true, false, 'Port1', true)
 					$begin 'PropDisplayMap'
-						PinName(2, 5, 1, Text(-0.00508, 0.000635, 0, 4, 5, false, 'Arial', 0, 'Port1', false, false, ExtentRect(0, 0, 0, 0, -0.00508, 0.0011650845588215, 0.003416100490183, 0.001766948529405, 0, 0, 0)))
+						PinName(2, 5, 1, Text(-0.00508, 0.000635, 0, 4, 5, false, 'Arial', 0, 'Port1', false, false, ExtentRect(0, 0, 0, 0, -0.00508, 0.00111919868615866, 0.00329255106587887, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'PinDef'
 				$begin 'PinDef'
 					Pin('Port2', 0.00508, 0, 3.14159265358979, 'N', 0, 0.00254, false, 0, true, '', true, false, 'Port2', true)
 					$begin 'PropDisplayMap'
-						PinName(2, 5, 1, Text(0.00508, 0.000635, 0, 4, 5, false, 'Arial', 0, 'Port2', false, false, ExtentRect(0, 0, 0, 0, 0.00508, 0.0011650845588215, 0.003416100490183, 0.001766948529405, 0, 0, 0)))
+						PinName(2, 5, 1, Text(0.00508, 0.000635, 0, 4, 5, false, 'Arial', 0, 'Port2', false, false, ExtentRect(0, 0, 0, 0, 0.00508, 0.00111919868615866, 0.00329255106587887, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'PinDef'
 				$begin 'Graphics'
@@ -196,13 +196,13 @@ $begin 'AnsoftProject'
 				$begin 'PinDef'
 					Pin('Port1', -0.00508, 0, 0, 'N', 0, 0.00254, false, 0, true, '', true, false, 'Port1', true)
 					$begin 'PropDisplayMap'
-						PinName(2, 5, 1, Text(-0.00508, 0.000635, 0, 4, 5, false, 'Arial', 0, 'Port1', false, false, ExtentRect(0, 0, 0, 0, -0.00508, 0.0011650845588215, 0.003416100490183, 0.001766948529405, 0, 0, 0)))
+						PinName(2, 5, 1, Text(-0.00508, 0.000635, 0, 4, 5, false, 'Arial', 0, 'Port1', false, false, ExtentRect(0, 0, 0, 0, -0.00508, 0.00111919868615866, 0.00329255106587887, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'PinDef'
 				$begin 'PinDef'
 					Pin('Port2', 0.00508, 0, 3.14159265358979, 'N', 0, 0.00254, false, 0, true, '', true, false, 'Port2', true)
 					$begin 'PropDisplayMap'
-						PinName(2, 5, 1, Text(0.00508, 0.000635, 0, 4, 5, false, 'Arial', 0, 'Port2', false, false, ExtentRect(0, 0, 0, 0, 0.00508, 0.0011650845588215, 0.003416100490183, 0.001766948529405, 0, 0, 0)))
+						PinName(2, 5, 1, Text(0.00508, 0.000635, 0, 4, 5, false, 'Arial', 0, 'Port2', false, false, ExtentRect(0, 0, 0, 0, 0.00508, 0.00111919868615866, 0.00329255106587887, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'PinDef'
 				$begin 'Graphics'
@@ -225,19 +225,19 @@ $begin 'AnsoftProject'
 				$begin 'PinDef'
 					Pin('Port1', -0.00508, 0, 0, 'N', 0, 0.00254, false, 0, true, '', true, false, 'Port1', true)
 					$begin 'PropDisplayMap'
-						PinName(2, 5, 1, Text(-0.00508, 0.000635, 0, 4, 5, false, 'Arial', 0, 'Port1', false, false, ExtentRect(0, 0, 0, 0, -0.00508, 0.0011650845588215, 0.003416100490183, 0.001766948529405, 0, 0, 0)))
+						PinName(2, 5, 1, Text(-0.00508, 0.000635, 0, 4, 5, false, 'Arial', 0, 'Port1', false, false, ExtentRect(0, 0, 0, 0, -0.00508, 0.00111919868615866, 0.00329255106587887, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'PinDef'
 				$begin 'PinDef'
 					Pin('Port2', 0.00508, 0, 3.14159265358979, 'N', 0, 0.00254, false, 0, true, '', true, false, 'Port2', true)
 					$begin 'PropDisplayMap'
-						PinName(2, 5, 1, Text(0.00508, 0.000635, 0, 4, 5, false, 'Arial', 0, 'Port2', false, false, ExtentRect(0, 0, 0, 0, 0.00508, 0.0011650845588215, 0.003416100490183, 0.001766948529405, 0, 0, 0)))
+						PinName(2, 5, 1, Text(0.00508, 0.000635, 0, 4, 5, false, 'Arial', 0, 'Port2', false, false, ExtentRect(0, 0, 0, 0, 0.00508, 0.00111919868615866, 0.00329255106587887, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'PinDef'
 				$begin 'PinDef'
 					Pin('ref', 0, -0.00508, 1.5707963267949, 'N', 0, 0.00254, false, 0, true, '', true, false, 'ref', true)
 					$begin 'PropDisplayMap'
-						PinName(2, 5, 1, Text(0, -0.004445, 0, 4, 5, false, 'Arial', 0, 'ref', false, false, ExtentRect(0, 0, 0, 0, 0, -0.0039149154411785, 0.001649151960778, 0.001766948529405, 0, 0, 0)))
+						PinName(2, 5, 1, Text(0, -0.004445, 0, 4, 5, false, 'Arial', 0, 'ref', false, false, ExtentRect(0, 0, 0, 0, 0, -0.00396080131384134, 0.0015494357957077, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'PinDef'
 				$begin 'Graphics'
@@ -374,7 +374,7 @@ $begin 'AnsoftProject'
 		$begin 'Models'
 			$begin '08CS020'
 				Name='08CS020'
-				ModTime=1652175251
+				ModTime=1652176640
 				Library=''
 				LibLocation='Project'
 				ModelType='nport'
@@ -430,7 +430,7 @@ $begin 'AnsoftProject'
 			$end '08CS020'
 			$begin '08CS060'
 				Name='08CS060'
-				ModTime=1652175251
+				ModTime=1652176640
 				Library=''
 				LibLocation='Project'
 				ModelType='nport'
@@ -486,7 +486,7 @@ $begin 'AnsoftProject'
 			$end '08CS060'
 			$begin 'BFP196W_w_noise_VCE_3'
 				Name='BFP196W_w_noise_VCE_3'
-				ModTime=1652175251
+				ModTime=1652176640
 				Library=''
 				LibLocation='Project'
 				ModelType='nport'
@@ -564,6 +564,21 @@ $begin 'AnsoftProject'
 					TextProp('Owner', 'SRD', '', 'Circuit Design')
 				$end 'Properties'
 				CompExtID=6
+				$begin 'Parameters'
+					MenuProp('CoSimulator', 'D', '', 'DefaultNetlist', 0)
+					ButtonProp('CosimDefinition', 'D', '', '', 'Edit', 40501, ButtonPropClientData())
+				$end 'Parameters'
+				$begin 'CosimDefinitions'
+					$begin 'CosimDefinition'
+						CosimulatorType=4
+						CosimDefName='DefaultNetlist'
+						IsDefinition=true
+						Connect=true
+						Data()
+						GRef()
+					$end 'CosimDefinition'
+					DefaultCosim='DefaultNetlist'
+				$end 'CosimDefinitions'
 			$end 'Circuit1'
 			$begin 'RES_'
 				Library='Nexxim Circuit Elements\\Resistors'
@@ -842,20 +857,6 @@ $begin 'AnsoftProject'
 				$end 'Parameters'
 			$end 'Compinst'
 			$begin 'Compinst'
-				ID='101'
-				Status='Status'
-				CompName='Nexxim Circuit Elements\\Resistors:RES_'
-				$begin 'Properties'
-					TextProp('ID', 'SRID', '', '101')
-				$end 'Properties'
-				$begin 'Parameters'
-					TextProp('InstanceName', 'HID', '', 'R10')
-					ButtonProp('CosimDefinition', 'OHD', '', 'Edit', 'Edit', 40501, ButtonPropClientData())
-					ValueProp('R', 'OD', 'Resistance (Ohm)', 'R1', 0)
-					MenuProp('CoSimulator', 'OHD', '', 'DefaultNetlist', 0)
-				$end 'Parameters'
-			$end 'Compinst'
-			$begin 'Compinst'
 				ID='102'
 				Status='Status'
 				CompName='Nexxim Circuit Elements\\Capacitors:CAP_'
@@ -1007,15 +1008,14 @@ $begin 'AnsoftProject'
 			$begin 'Net'
 				NetName='0'
 				$begin 'Properties'
-					CheckboxProp('AlignMicrowavePorts', 'D', '', true)
+					CheckboxProp('AlignMicrowavePorts', 'D', '', false)
 				$end 'Properties'
 				NetGPorts='0'
-				NetPin('96', 2)
-				NetPin('101', 0)
-				NetPin('103', 0)
-				NetPin('102', 1)
-				NetPin('100', 1)
 				NetPin('97', 1)
+				NetPin('103', 0)
+				NetPin('100', 1)
+				NetPin('102', 1)
+				NetPin('96', 2)
 				NetPin('107', 0)
 				NetPin('108', 0)
 			$end 'Net'
@@ -1024,7 +1024,6 @@ $begin 'AnsoftProject'
 				$begin 'Properties'
 					CheckboxProp('AlignMicrowavePorts', 'D', '', true)
 				$end 'Properties'
-				NetPin('101', 1)
 				NetPin('104', 1)
 				NetPin('105', 0)
 				NetPin('108', 1)
@@ -1034,8 +1033,8 @@ $begin 'AnsoftProject'
 				$begin 'Properties'
 					CheckboxProp('AlignMicrowavePorts', 'D', '', true)
 				$end 'Properties'
-				NetPin('106', 1)
 				NetPin('107', 1)
+				NetPin('106', 1)
 				NetPin('109', 0)
 			$end 'Net'
 			$begin 'Net'
@@ -1043,36 +1042,36 @@ $begin 'AnsoftProject'
 				$begin 'Properties'
 					CheckboxProp('AlignMicrowavePorts', 'D', '', true)
 				$end 'Properties'
-				NetPin('99', 1)
-				NetPin('103', 1)
 				NetPin('97', 0)
+				NetPin('103', 1)
+				NetPin('99', 1)
 			$end 'Net'
 			$begin 'Net'
 				NetName='net_7'
 				$begin 'Properties'
 					CheckboxProp('AlignMicrowavePorts', 'D', '', true)
 				$end 'Properties'
-				NetPin('102', 0)
 				NetPin('100', 0)
 				NetPin('98', 1)
+				NetPin('102', 0)
 			$end 'Net'
 			$begin 'Net'
 				NetName='net_8'
 				$begin 'Properties'
 					CheckboxProp('AlignMicrowavePorts', 'D', '', true)
 				$end 'Properties'
-				NetPin('106', 0)
-				NetPin('96', 0)
 				NetPin('99', 0)
+				NetPin('96', 0)
+				NetPin('106', 0)
 			$end 'Net'
 			$begin 'Net'
 				NetName='net_9'
 				$begin 'Properties'
 					CheckboxProp('AlignMicrowavePorts', 'D', '', true)
 				$end 'Properties'
-				NetPin('96', 1)
-				NetPin('98', 0)
 				NetPin('104', 0)
+				NetPin('98', 0)
+				NetPin('96', 1)
 			$end 'Net'
 			$begin 'Net'
 				NetName='Port3'
@@ -1102,189 +1101,175 @@ $begin 'AnsoftProject'
 				$begin 'SchGPort'
 					SchPortInst('Symbols:ground_earth', '137', '0', 33, 0.11176, 0.0254, 3.14159265358979, false, 'Symbols:ground_earth', 0)
 					$begin 'PropDisplayMap'
-						PortName(2, 5, 0, Text(0.11303, 0.0254, 0, 1, 5, false, 'Arial', 0, '0', false, false, ExtentRect(0, 0, 0, 0, 0.113442287990195, 0.0259300845588215, 0.000824575980389, 0.001766948529405, 0, 0, 0)))
+						PortName(2, 5, 0, Text(0.11303, 0.0254, 0, 1, 5, false, 'Arial', 0, '0', false, false, ExtentRect(0, 0, 0, 0, 0.113417358948927, 0.0258841986861587, 0.000774717897853852, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'SchGPort'
 				$begin 'SchGPort'
 					SchPortInst('Symbols:ground_earth', '139', '0', 37, 0.09652, 0.0254, 3.14159265358979, false, 'Symbols:ground_earth', 0)
 					$begin 'PropDisplayMap'
-						PortName(2, 5, 0, Text(0.09779, 0.0254, 0, 1, 5, false, 'Arial', 0, '0', false, false, ExtentRect(0, 0, 0, 0, 0.0982022879901945, 0.0259300845588215, 0.000824575980389, 0.001766948529405, 0, 0, 0)))
+						PortName(2, 5, 0, Text(0.09779, 0.0254, 0, 1, 5, false, 'Arial', 0, '0', false, false, ExtentRect(0, 0, 0, 0, 0.0981773589489269, 0.0258841986861587, 0.000774717897853852, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'SchGPort'
 				$begin 'SchGPort'
 					SchPortInst('Symbols:ground_earth', '141', '0', 41, 0.13462, -0.0254, 0, false, 'Symbols:ground_earth', 0)
 					$begin 'PropDisplayMap'
-						PortName(2, 5, 0, Text(0.13589, -0.0254, 0, 1, 5, false, 'Arial', 0, '0', false, false, ExtentRect(0, 0, 0, 0, 0.136302287990194, -0.0248699154411785, 0.000824575980389, 0.001766948529405, 0, 0, 0)))
-					$end 'PropDisplayMap'
-				$end 'SchGPort'
-				$begin 'SchGPort'
-					SchPortInst('Symbols:ground_earth', '143', '0', 45, 0.127, -0.0254, 0, false, 'Symbols:ground_earth', 0)
-					$begin 'PropDisplayMap'
-						PortName(2, 5, 0, Text(0.12827, -0.0254, 0, 1, 5, false, 'Arial', 0, '0', false, false, ExtentRect(0, 0, 0, 0, 0.128682287990194, -0.0248699154411785, 0.000824575980389, 0.001766948529405, 0, 0, 0)))
+						PortName(2, 5, 0, Text(0.13589, -0.0254, 0, 1, 5, false, 'Arial', 0, '0', false, false, ExtentRect(0, 0, 0, 0, 0.136277358948927, -0.0249158013138413, 0.000774717897853852, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'SchGPort'
 				$begin 'SchGPort'
 					SchPortInst('Symbols:ground_earth', '145', '0', 49, 0.08128, -0.0254, 0, false, 'Symbols:ground_earth', 0)
 					$begin 'PropDisplayMap'
-						PortName(2, 5, 0, Text(0.08255, -0.0254, 0, 1, 5, false, 'Arial', 0, '0', false, false, ExtentRect(0, 0, 0, 0, 0.0829622879901945, -0.0248699154411785, 0.000824575980389, 0.001766948529405, 0, 0, 0)))
+						PortName(2, 5, 0, Text(0.08255, -0.0254, 0, 1, 5, false, 'Arial', 0, '0', false, false, ExtentRect(0, 0, 0, 0, 0.0829373589489269, -0.0249158013138413, 0.000774717897853852, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'SchGPort'
 				$begin 'SchGPort'
 					SchPortInst('Symbols:ground_earth', '147', '0', 53, 0.10414, -0.02286, 0, false, 'Symbols:ground_earth', 0)
 					$begin 'PropDisplayMap'
-						PortName(2, 5, 0, Text(0.10541, -0.02286, 0, 1, 5, false, 'Arial', 0, '0', false, false, ExtentRect(0, 0, 0, 0, 0.105822287990195, -0.0223299154411785, 0.000824575980389, 0.001766948529405, 0, 0, 0)))
+						PortName(2, 5, 0, Text(0.10541, -0.02286, 0, 1, 5, false, 'Arial', 0, '0', false, false, ExtentRect(0, 0, 0, 0, 0.105797358948927, -0.0223758013138413, 0.000774717897853852, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'SchGPort'
 				$begin 'SchGPort'
 					SchPortInst('Symbols:ground_earth', '149', '0', 57, 0.12954, 0.00762, 1.5707963267949, false, 'Symbols:ground_earth', 0)
 					$begin 'PropDisplayMap'
-						PortName(2, 5, 0, Text(0.13081, 0.00762, 0, 1, 5, false, 'Arial', 0, '0', false, false, ExtentRect(0, 0, 0, 0, 0.131222287990194, 0.0081500845588215, 0.000824575980389, 0.001766948529405, 0, 0, 0)))
+						PortName(2, 5, 0, Text(0.13081, 0.00762, 0, 1, 5, false, 'Arial', 0, '0', false, false, ExtentRect(0, 0, 0, 0, 0.131197358948927, 0.00810419868615866, 0.000774717897853852, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'SchGPort'
 				$begin 'SchGPort'
 					SchPortInst('Symbols:ground_earth', '151', '0', 61, 0.07874, 0.00762, 4.71238898038469, false, 'Symbols:ground_earth', 0)
 					$begin 'PropDisplayMap'
-						PortName(2, 5, 0, Text(0.08001, 0.00762, 0, 1, 5, false, 'Arial', 0, '0', false, false, ExtentRect(0, 0, 0, 0, 0.0804222879901945, 0.0081500845588215, 0.000824575980389, 0.001766948529405, 0, 0, 0)))
+						PortName(2, 5, 0, Text(0.08001, 0.00762, 0, 1, 5, false, 'Arial', 0, '0', false, false, ExtentRect(0, 0, 0, 0, 0.0803973589489269, 0.00810419868615866, 0.000774717897853852, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'SchGPort'
 				$begin 'SchIPort'
 					SchPortInst('defaultinterfaceport', '157', 'Port3', 73, 0.05842, -0.00762, 1.5707963267949, false, 'defaultinterfaceport', 4294967295)
 					$begin 'PropDisplayMap'
-						PortName(2, 5, 0, Text(0.05842, -0.00762, 0, 1, 5, false, 'Arial', 0, 'Port3', false, false, ExtentRect(0, 0, 0, 0, 0.0601280502450915, -0.0070899154411785, 0.003416100490183, 0.001766948529405, 0, 0, 0)))
+						PortName(2, 5, 0, Text(0.05842, -0.00762, 0, 1, 5, false, 'Arial', 0, 'Port3', false, false, ExtentRect(0, 0, 0, 0, 0.0600662755329394, -0.00713580131384134, 0.00329255106587887, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'SchIPort'
 				$begin 'SchIPort'
 					SchPortInst('defaultinterfaceport', '159', 'Port4', 77, 0.1524, -0.00762, 4.71238898038469, false, 'defaultinterfaceport', 4294967295)
 					$begin 'PropDisplayMap'
-						PortName(2, 5, 0, Text(0.1524, -0.00762, 0, 1, 5, false, 'Arial', 0, 'Port4', false, false, ExtentRect(0, 0, 0, 0, 0.154108050245091, -0.0070899154411785, 0.003416100490183, 0.001766948529405, 0, 0, 0)))
+						PortName(2, 5, 0, Text(0.1524, -0.00762, 0, 1, 5, false, 'Arial', 0, 'Port4', false, false, ExtentRect(0, 0, 0, 0, 0.154046275532939, -0.00713580131384134, 0.00329255106587887, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'SchIPort'
 				$begin 'SchCompDef'
 					SchCompInst('BFP196W_w_noise_VCE_3', 'A', '174', 107, '96', 'normal', 0.10414, -0.00762, 0, false, 4294967295, true)
 					Levels(0, 1)
 					$begin 'PropDisplayMap'
-						FileName(4, 3, 0, Text(0.10414, -0.0162948055555699, 0, 4, 5, false, 'Arial', 0, 'BFP196W_w_noise_VCE_3.0V_IC_10mA.s2p', false, false, ExtentRect(0, 0, 0, 0, 0.10414, -0.0157647209967484, 0.029802531862631, 0.001766948529405, 0, 0, 0)))
+						FileName(4, 3, 0, Text(0.10414, -0.0162948055555699, 0, 4, 5, false, 'Arial', 0, 'BFP196W_w_noise_VCE_3.0V_IC_10mA.s2p', false, false, ExtentRect(0, 0, 0, 0, 0.10414, -0.0158106068694112, 0.0290519211695194, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'SchCompDef'
 				$begin 'SchCompDef'
 					SchCompInst('Nexxim Circuit Elements\\Resistors:RES_', 'A', '175', 109, '97', 'normal', 0.09652, 0.01524, 1.5707963267949, false, 4294967295, true)
 					Levels(0, 1)
 					$begin 'PropDisplayMap'
-						R(2, 5, 0, Text(0.09652, 0.01189919, 0, 4, 5, false, 'Arial', 0, 'Rb2', false, false, ExtentRect(0, 0, 0, 0, 0.09652, 0.0124292745588215, 0.002709321078421, 0.001766948529405, 0, 0, 0)))
-						InstanceName(2, 5, 0, Text(0.091948, 0.01647119, 0, 1, 5, false, 'Arial', 0, 'R1', false, false, ExtentRect(0, 0, 0, 0, 0.092890372549016, 0.0170012745588215, 0.001884745098032, 0.001766948529405, 0, 0, 0)))
+						R(2, 5, 0, Text(0.09652, 0.01189919, 0, 4, 5, false, 'Arial', 0, 'Rb2', false, false, ExtentRect(0, 0, 0, 0, 0.09652, 0.0123833886861587, 0.00251783316802502, 0.00174311527017117, 0, 0, 0)))
+						InstanceName(2, 5, 0, Text(0.091948, 0.01647119, 0, 1, 5, false, 'Arial', 0, 'R1', false, false, ExtentRect(0, 0, 0, 0, 0.0928195576350856, 0.0169553886861587, 0.00174311527017117, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'SchCompDef'
 				$begin 'SchCompDef'
-					SchCompInst('Nexxim Circuit Elements\\Resistors:RES_', 'A', '176', 111, '98', 'normal', 0.11176, -8.67361737988404e-19, 1.5707963267949, false, 4294967295, true)
+					SchCompInst('Nexxim Circuit Elements\\Resistors:RES_', 'A', '176', 111, '98', 'normal', 0.11176, -1.73472347597681e-18, 1.5707963267949, false, 4294967295, true)
 					Levels(0, 1)
 					$begin 'PropDisplayMap'
-						R(2, 5, 0, Text(0.11176, -0.00334081, 0, 4, 5, false, 'Arial', 0, 'Rc1', false, false, ExtentRect(0, 0, 0, 0, 0.11176, -0.0028107254411785, 0.002591524509794, 0.001766948529405, 0, 0, 0)))
-						InstanceName(2, 5, 0, Text(0.107188, 0.00123118999999999, 0, 1, 5, false, 'Arial', 0, 'R2', false, false, ExtentRect(0, 0, 0, 0, 0.108130372549016, 0.00176127455882149, 0.001884745098032, 0.001766948529405, 0, 0, 0)))
+						R(2, 5, 0, Text(0.11176, -0.00334081, 0, 4, 5, false, 'Arial', 0, 'Rc1', false, false, ExtentRect(0, 0, 0, 0, 0.11176, -0.00285661131384134, 0.00251783316802502, 0.00174311527017117, 0, 0, 0)))
+						InstanceName(2, 5, 0, Text(0.107188, 0.00123118999999999, 0, 1, 5, false, 'Arial', 0, 'R2', false, false, ExtentRect(0, 0, 0, 0, 0.108059557635086, 0.00171538868615865, 0.00174311527017117, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'SchCompDef'
 				$begin 'SchCompDef'
-					SchCompInst('Nexxim Circuit Elements\\Resistors:RES_', 'A', '177', 113, '99', 'normal', 0.09652, -8.67361737988404e-19, 1.5707963267949, false, 4294967295, true)
+					SchCompInst('Nexxim Circuit Elements\\Resistors:RES_', 'A', '177', 113, '99', 'normal', 0.09652, -1.73472347597681e-18, 1.5707963267949, false, 4294967295, true)
 					Levels(0, 1)
 					$begin 'PropDisplayMap'
-						R(2, 5, 0, Text(0.09652, -0.00334081, 0, 4, 5, false, 'Arial', 0, 'Rb1', false, false, ExtentRect(0, 0, 0, 0, 0.09652, -0.0028107254411785, 0.002709321078421, 0.001766948529405, 0, 0, 0)))
-						InstanceName(2, 5, 0, Text(0.091948, 0.00123118999999999, 0, 1, 5, false, 'Arial', 0, 'R8', false, false, ExtentRect(0, 0, 0, 0, 0.092890372549016, 0.00176127455882149, 0.001884745098032, 0.001766948529405, 0, 0, 0)))
+						R(2, 5, 0, Text(0.09652, -0.00334081, 0, 4, 5, false, 'Arial', 0, 'Rb1', false, false, ExtentRect(0, 0, 0, 0, 0.09652, -0.00285661131384134, 0.00251783316802502, 0.00174311527017117, 0, 0, 0)))
+						InstanceName(2, 5, 0, Text(0.091948, 0.00123118999999999, 0, 1, 5, false, 'Arial', 0, 'R8', false, false, ExtentRect(0, 0, 0, 0, 0.0928195576350856, 0.00171538868615865, 0.00174311527017117, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'SchCompDef'
 				$begin 'SchCompDef'
 					SchCompInst('Nexxim Circuit Elements\\Resistors:RES_', 'A', '178', 115, '100', 'normal', 0.11176, 0.01524, 1.5707963267949, false, 4294967295, true)
 					Levels(0, 1)
 					$begin 'PropDisplayMap'
-						R(2, 5, 0, Text(0.11176, 0.01189919, 0, 4, 5, false, 'Arial', 0, 'Rc2', false, false, ExtentRect(0, 0, 0, 0, 0.11176, 0.0124292745588215, 0.002591524509794, 0.001766948529405, 0, 0, 0)))
-						InstanceName(2, 5, 0, Text(0.107188, 0.01647119, 0, 1, 5, false, 'Arial', 0, 'R9', false, false, ExtentRect(0, 0, 0, 0, 0.108130372549016, 0.0170012745588215, 0.001884745098032, 0.001766948529405, 0, 0, 0)))
-					$end 'PropDisplayMap'
-				$end 'SchCompDef'
-				$begin 'SchCompDef'
-					SchCompInst('Nexxim Circuit Elements\\Resistors:RES_', 'A', '179', 117, '101', 'normal', 0.127, -0.01524, 1.5707963267949, false, 4294967295, true)
-					Levels(0, 1)
-					$begin 'PropDisplayMap'
-						R(2, 5, 0, Text(0.127, -0.01858081, 0, 4, 5, false, 'Arial', 0, 'R1', false, false, ExtentRect(0, 0, 0, 0, 0.127, -0.0180507254411785, 0.001884745098032, 0.001766948529405, 0, 0, 0)))
-						InstanceName(2, 5, 0, Text(0.122428, -0.01400881, 0, 1, 5, false, 'Arial', 0, 'R10', false, false, ExtentRect(0, 0, 0, 0, 0.12378266053921, -0.0134787254411785, 0.002709321078421, 0.001766948529405, 0, 0, 0)))
+						R(2, 5, 0, Text(0.11176, 0.01189919, 0, 4, 5, false, 'Arial', 0, 'Rc2', false, false, ExtentRect(0, 0, 0, 0, 0.11176, 0.0123833886861587, 0.00251783316802502, 0.00174311527017117, 0, 0, 0)))
+						InstanceName(2, 5, 0, Text(0.107188, 0.01647119, 0, 1, 5, false, 'Arial', 0, 'R9', false, false, ExtentRect(0, 0, 0, 0, 0.108059557635086, 0.0169553886861587, 0.00174311527017117, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'SchCompDef'
 				$begin 'SchCompDef'
 					SchCompInst('Nexxim Circuit Elements\\Capacitors:CAP_', 'A', '180', 119, '102', 'normal', 0.11938, 0.00762, 0, false, 4294967295, true)
 					Levels(0, 1)
 					$begin 'PropDisplayMap'
-						C(2, 5, 0, Text(0.11938, 0.00383469, 0, 4, 5, false, 'Arial', 0, '1e-08', false, false, ExtentRect(0, 0, 0, 0, 0.11938, 0.0043647745588215, 0.003769490196064, 0.001766948529405, 0, 0, 0)))
-						InstanceName(2, 5, 0, Text(0.114808, 0.00866069, 0, 1, 5, false, 'Arial', 0, 'C1', false, false, ExtentRect(0, 0, 0, 0, 0.115750372549016, 0.0091907745588215, 0.001884745098032, 0.001766948529405, 0, 0, 0)))
+						C(2, 5, 0, Text(0.11938, 0.00383469, 0, 4, 5, false, 'Arial', 0, '1e-08', false, false, ExtentRect(0, 0, 0, 0, 0.11938, 0.00431888868615866, 0.00348623054034233, 0.00174311527017117, 0, 0, 0)))
+						InstanceName(2, 5, 0, Text(0.114808, 0.00866069, 0, 1, 5, false, 'Arial', 0, 'C1', false, false, ExtentRect(0, 0, 0, 0, 0.115679557635086, 0.00914488868615866, 0.00174311527017117, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'SchCompDef'
 				$begin 'SchCompDef'
 					SchCompInst('Nexxim Circuit Elements\\Capacitors:CAP_', 'A', '181', 121, '103', 'normal', 0.0889, 0.00762, 0, false, 4294967295, true)
 					Levels(0, 1)
 					$begin 'PropDisplayMap'
-						C(2, 5, 0, Text(0.0889, 0.00383469, 0, 4, 5, false, 'Arial', 0, '1e-09', false, false, ExtentRect(0, 0, 0, 0, 0.0889, 0.0043647745588215, 0.003769490196064, 0.001766948529405, 0, 0, 0)))
-						InstanceName(2, 5, 0, Text(0.084328, 0.00866069, 0, 1, 5, false, 'Arial', 0, 'C2', false, false, ExtentRect(0, 0, 0, 0, 0.085270372549016, 0.0091907745588215, 0.001884745098032, 0.001766948529405, 0, 0, 0)))
+						C(2, 5, 0, Text(0.0889, 0.00383469, 0, 4, 5, false, 'Arial', 0, '1e-09', false, false, ExtentRect(0, 0, 0, 0, 0.0889, 0.00431888868615866, 0.00348623054034233, 0.00174311527017117, 0, 0, 0)))
+						InstanceName(2, 5, 0, Text(0.084328, 0.00866069, 0, 1, 5, false, 'Arial', 0, 'C2', false, false, ExtentRect(0, 0, 0, 0, 0.0851995576350856, 0.00914488868615866, 0.00174311527017117, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'SchCompDef'
 				$begin 'SchCompDef'
 					SchCompInst('Nexxim Circuit Elements\\Capacitors:CAP_', 'A', '182', 123, '104', 'normal', 0.11938, -0.00762, 0, false, 4294967295, true)
 					Levels(0, 1)
 					$begin 'PropDisplayMap'
-						C(2, 5, 0, Text(0.11938, -0.01140531, 0, 4, 5, false, 'Arial', 0, 'C2_r', false, false, ExtentRect(0, 0, 0, 0, 0.11938, -0.0108752254411785, 0.003180507352929, 0.001766948529405, 0, 0, 0)))
-						InstanceName(2, 5, 0, Text(0.114808, -0.00657931000000001, 0, 1, 5, false, 'Arial', 0, 'C3', false, false, ExtentRect(0, 0, 0, 0, 0.115750372549016, -0.00604922544117851, 0.001884745098032, 0.001766948529405, 0, 0, 0)))
+						C(2, 5, 0, Text(0.11938, -0.01140531, 0, 4, 5, false, 'Arial', 0, 'C2_r', false, false, ExtentRect(0, 0, 0, 0, 0.11938, -0.0109211113138413, 0.00290519211695194, 0.00174311527017117, 0, 0, 0)))
+						InstanceName(2, 5, 0, Text(0.114808, -0.00657931000000001, 0, 1, 5, false, 'Arial', 0, 'C3', false, false, ExtentRect(0, 0, 0, 0, 0.115679557635086, -0.00609511131384135, 0.00174311527017117, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'SchCompDef'
 				$begin 'SchCompDef'
 					SchCompInst('Nexxim Circuit Elements\\Capacitors:CAP_', 'A', '183', 125, '105', 'normal', 0.14224, -0.00762, 0, false, 4294967295, true)
 					Levels(0, 1)
 					$begin 'PropDisplayMap'
-						C(2, 5, 0, Text(0.14224, -0.01140531, 0, 4, 5, false, 'Arial', 0, 'C3', false, false, ExtentRect(0, 0, 0, 0, 0.14224, -0.0108752254411785, 0.001884745098032, 0.001766948529405, 0, 0, 0)))
-						InstanceName(2, 5, 0, Text(0.137668, -0.00657931000000001, 0, 1, 5, false, 'Arial', 0, 'C4', false, false, ExtentRect(0, 0, 0, 0, 0.138610372549016, -0.00604922544117851, 0.001884745098032, 0.001766948529405, 0, 0, 0)))
+						C(2, 5, 0, Text(0.14224, -0.01140531, 0, 4, 5, false, 'Arial', 0, 'C3', false, false, ExtentRect(0, 0, 0, 0, 0.14224, -0.0109211113138413, 0.00174311527017117, 0.00174311527017117, 0, 0, 0)))
+						InstanceName(2, 5, 0, Text(0.137668, -0.00657931000000001, 0, 1, 5, false, 'Arial', 0, 'C4', false, false, ExtentRect(0, 0, 0, 0, 0.138539557635086, -0.00609511131384135, 0.00174311527017117, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'SchCompDef'
 				$begin 'SchCompDef'
 					SchCompInst('Nexxim Circuit Elements\\Capacitors:CAP_', 'A', '184', 127, '106', 'normal', 0.0889, -0.00762, 3.14159265358979, false, 4294967295, true)
 					Levels(0, 1)
 					$begin 'PropDisplayMap'
-						C(2, 5, 0, Text(0.0889, -0.01140531, 0, 4, 5, false, 'Arial', 0, 'C1_r', false, false, ExtentRect(0, 0, 0, 0, 0.0889, -0.0108752254411785, 0.003180507352929, 0.001766948529405, 0, 0, 0)))
-						InstanceName(2, 5, 0, Text(0.084328, -0.00657931000000001, 0, 1, 5, false, 'Arial', 0, 'C5', false, false, ExtentRect(0, 0, 0, 0, 0.085270372549016, -0.00604922544117851, 0.001884745098032, 0.001766948529405, 0, 0, 0)))
+						C(2, 5, 0, Text(0.0889, -0.01140531, 0, 4, 5, false, 'Arial', 0, 'C1_r', false, false, ExtentRect(0, 0, 0, 0, 0.0889, -0.0109211113138413, 0.00290519211695194, 0.00174311527017117, 0, 0, 0)))
+						InstanceName(2, 5, 0, Text(0.084328, -0.00657931000000001, 0, 1, 5, false, 'Arial', 0, 'C5', false, false, ExtentRect(0, 0, 0, 0, 0.0851995576350856, -0.00609511131384135, 0.00174311527017117, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'SchCompDef'
 				$begin 'SchCompDef'
 					SchCompInst('08CS020', 'A', '185', 129, '107', 'normal', 0.08128, -0.01524, 1.5707963267949, false, 4294967295, true)
 					Levels(0, 1)
 					$begin 'PropDisplayMap'
-						FileName(4, 3, 0, Text(0.08128, -0.0239148055555699, 0, 4, 5, false, 'Arial', 0, '08CS020.S2P', false, false, ExtentRect(0, 0, 0, 0, 0.08128, -0.0233847209967484, 0.009188132352906, 0.001766948529405, 0, 0, 0)))
+						FileName(4, 3, 0, Text(0.08128, -0.0239148055555699, 0, 4, 5, false, 'Arial', 0, '08CS020.S2P', false, false, ExtentRect(0, 0, 0, 0, 0.08128, -0.0234306068694112, 0.0089092558253193, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'SchCompDef'
 				$begin 'SchCompDef'
 					SchCompInst('08CS060', 'A', '186', 131, '108', 'normal', 0.13462, -0.01524, 1.5707963267949, false, 4294967295, true)
 					Levels(0, 1)
 					$begin 'PropDisplayMap'
-						FileName(4, 3, 0, Text(0.13462, -0.0239148055555699, 0, 4, 5, false, 'Arial', 0, '08CS060.S2P', false, false, ExtentRect(0, 0, 0, 0, 0.13462, -0.0233847209967484, 0.009188132352906, 0.001766948529405, 0, 0, 0)))
+						FileName(4, 3, 0, Text(0.13462, -0.0239148055555699, 0, 4, 5, false, 'Arial', 0, '08CS060.S2P', false, false, ExtentRect(0, 0, 0, 0, 0.13462, -0.0234306068694112, 0.0089092558253193, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'SchCompDef'
 				$begin 'SchCompDef'
 					SchCompInst('Nexxim Circuit Elements\\Capacitors:CAP_', 'A', '187', 133, '109', 'normal', 0.07112, -0.00762, 3.14159265358979, false, 4294967295, true)
 					Levels(0, 1)
 					$begin 'PropDisplayMap'
-						C(2, 5, 0, Text(0.07112, -0.01140531, 0, 4, 5, false, 'Arial', 0, 'C11_r', false, false, ExtentRect(0, 0, 0, 0, 0.07112, -0.0108752254411785, 0.003887286764691, 0.001766948529405, 0, 0, 0)))
-						InstanceName(2, 5, 0, Text(0.066548, -0.00657931000000001, 0, 1, 5, false, 'Arial', 0, 'C6', false, false, ExtentRect(0, 0, 0, 0, 0.067490372549016, -0.00604922544117851, 0.001884745098032, 0.001766948529405, 0, 0, 0)))
+						C(2, 5, 0, Text(0.07112, -0.01140531, 0, 4, 5, false, 'Arial', 0, 'C11_r', false, false, ExtentRect(0, 0, 0, 0, 0.07112, -0.0109211113138413, 0.00348623054034233, 0.00174311527017117, 0, 0, 0)))
+						InstanceName(2, 5, 0, Text(0.066548, -0.00657931000000001, 0, 1, 5, false, 'Arial', 0, 'C6', false, false, ExtentRect(0, 0, 0, 0, 0.0674195576350856, -0.00609511131384135, 0.00174311527017117, 0.00174311527017117, 0, 0, 0)))
 					$end 'PropDisplayMap'
 				$end 'SchCompDef'
 				$begin 'PageNet'
 					NetName='Port3'
-					ID=187
+					ID=188
 					Interface('Port3', 73)
 					WireSeg(0.06604, -0.00762, 0.05842, -0.00762, 206)
 					Color=16711680
 				$end 'PageNet'
 				$begin 'PageNet'
 					NetName='Port4'
-					ID=191
+					ID=192
 					Interface('Port4', 77)
 					WireSeg(0.14732, -0.00762, 0.1524, -0.00762, 207)
 					Color=16711680
 				$end 'PageNet'
 				$begin 'PageNet'
 					NetName='net_6'
-					ID=193
+					ID=194
 					WireSeg(0.09398, 0.00762, 0.09652, 0.00762, 208)
 					WireSeg(0.09652, 0.01016, 0.09652, 0.00762, 209)
 					WireSeg(0.09652, 0.00762, 0.09652, 0.00508, 210)
@@ -1292,7 +1277,7 @@ $begin 'AnsoftProject'
 				$end 'PageNet'
 				$begin 'PageNet'
 					NetName='net_7'
-					ID=195
+					ID=196
 					WireSeg(0.1143, 0.00762, 0.11176, 0.00762, 211)
 					WireSeg(0.11176, 0.01016, 0.11176, 0.00762, 212)
 					WireSeg(0.11176, 0.00762, 0.11176, 0.00508, 213)
@@ -1300,7 +1285,7 @@ $begin 'AnsoftProject'
 				$end 'PageNet'
 				$begin 'PageNet'
 					NetName='net_8'
-					ID=197
+					ID=198
 					WireSeg(0.09398, -0.00762, 0.09652, -0.00762, 214)
 					WireSeg(0.09652, -0.00762, 0.09906, -0.00762, 215)
 					WireSeg(0.09652, -0.00508, 0.09652, -0.00762, 216)
@@ -1308,7 +1293,7 @@ $begin 'AnsoftProject'
 				$end 'PageNet'
 				$begin 'PageNet'
 					NetName='net_9'
-					ID=199
+					ID=200
 					WireSeg(0.10922, -0.00762, 0.11176, -0.00762, 217)
 					WireSeg(0.11176, -0.00762, 0.1143, -0.00762, 218)
 					WireSeg(0.11176, -0.00508, 0.11176, -0.00762, 219)
@@ -1316,73 +1301,64 @@ $begin 'AnsoftProject'
 				$end 'PageNet'
 				$begin 'PageNet'
 					NetName='net_10'
-					ID=201
-					WireSeg(0.12446, -0.00762, 0.127, -0.00762, 220)
+					ID=242
+					WireSeg(0.12446, -0.00762, 0.13462, -0.00762, 220)
 					WireSeg(0.13462, -0.00762, 0.13716, -0.00762, 221)
-					WireSeg(0.127, -0.00762, 0.13462, -0.00762, 222)
 					WireSeg(0.13462, -0.01016, 0.13462, -0.00762, 223)
-					WireSeg(0.127, -0.01016, 0.127, -0.00762, 224)
 					Color=16711680
 				$end 'PageNet'
 				$begin 'PageNet'
 					NetName='0'
-					ID=205
+					ID=206
 					Global('0', 33)
 					WireSeg(0.11176, 0.02032, 0.11176, 0.02286, 225)
 					Color=16711680
 				$end 'PageNet'
 				$begin 'PageNet'
 					NetName='0'
-					ID=209
+					ID=210
 					Global('0', 37)
 					WireSeg(0.09652, 0.02032, 0.09652, 0.02286, 226)
 					Color=16711680
 				$end 'PageNet'
 				$begin 'PageNet'
 					NetName='0'
-					ID=213
+					ID=214
 					Global('0', 41)
 					WireSeg(0.13462, -0.02032, 0.13462, -0.02286, 227)
 					Color=16711680
 				$end 'PageNet'
 				$begin 'PageNet'
 					NetName='0'
-					ID=217
-					Global('0', 45)
-					WireSeg(0.127, -0.02032, 0.127, -0.02286, 228)
-					Color=16711680
-				$end 'PageNet'
-				$begin 'PageNet'
-					NetName='0'
-					ID=221
+					ID=222
 					Global('0', 49)
 					WireSeg(0.08128, -0.02032, 0.08128, -0.02286, 229)
 					Color=16711680
 				$end 'PageNet'
 				$begin 'PageNet'
 					NetName='0'
-					ID=225
+					ID=226
 					Global('0', 53)
 					WireSeg(0.10414, -0.02032, 0.10414, -0.0127, 230)
 					Color=16711680
 				$end 'PageNet'
 				$begin 'PageNet'
 					NetName='0'
-					ID=229
+					ID=230
 					Global('0', 57)
 					WireSeg(0.12446, 0.00762, 0.127, 0.00762, 231)
 					Color=16711680
 				$end 'PageNet'
 				$begin 'PageNet'
 					NetName='0'
-					ID=233
+					ID=234
 					Global('0', 61)
 					WireSeg(0.08128, 0.00762, 0.08382, 0.00762, 232)
 					Color=16711680
 				$end 'PageNet'
 				$begin 'PageNet'
 					NetName='net_11'
-					ID=235
+					ID=236
 					WireSeg(0.08382, -0.00762, 0.08128, -0.00762, 233)
 					WireSeg(0.0762, -0.00762, 0.08128, -0.00762, 234)
 					WireSeg(0.08128, -0.01016, 0.08128, -0.00762, 235)
@@ -1407,16 +1383,16 @@ L1 = 2.7nH\
 L2 = 6nH\
 C2_r = 15pF\
 C1_r = 10.5pF\
-C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446209151056, 0.019789823529336, 0.039579647058672, 0, 0, 0), DisplayRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446209151056, 0.0212009346404528, 0.0409907581697888, 0, 0, 8192))
+C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0641514053617213, 0.019598099625778, 0.0193679474463463, 0.0406726896373272, 0, 0, 0), DisplayRect(0, 0, 0, 0, 0.0641514053617213, 0.019598099625778, 0.0207790585574631, 0.042083800748444, 0, 0, 8192))
 				$end 'Graphics'
 				$begin 'Properties'
 					TextProp('Title', 'D', '', '')
 					TextProp('Author', 'D', '', '')
 					TextProp('Number', 'D', '', '1')
 					TextProp('Project', 'D', '', 'BF196_ampV2')
-					TextProp('ProjectPath', 'D', '', 'D:/Documents/xsvobo1q/VFO/Amplifier/')
+					TextProp('ProjectPath', 'D', '', 'D:/Documents/VFO/Amplifier/')
 					TextProp('Design', 'D', '', 'Circuit1')
-					TextProp('Date', 'D', '', '11:46:04 dop.  kvě 10, 2022')
+					TextProp('Date', 'D', '', '11:57:27 dop.  kvě 10, 2022')
 				$end 'Properties'
 			$end 'Page'
 			GridSetup('1000mil', '100mil', '100mil', 16772075, 16774645, true, true, 16777215, Origin(x='0mm', y='0mm'), PageSize(x='0mm', y='0mm'), Margins(x='0mm', y='0mm'), 0, 0, 0)
@@ -1427,7 +1403,7 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 		$begin 'Layout'
 			BlackBox=false
 			DefUnits='mm'
-			NIdx=31
+			NIdx=45
 			ActLyr='Trace'
 			Tol(1e-08, 1e-08, 1e-12)
 			$begin 'HfssExportInfo'
@@ -1462,6 +1438,12 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 			$begin 'DRCSolutionMgr'
 			$end 'DRCSolutionMgr'
 		$end 'Rule Set'
+		$begin 'Workflow'
+			WorkflowName=''
+			SpecName=''
+			TemplateName=''
+			LibLoc=1339632
+		$end 'Workflow'
 		$begin 'SimSetups'
 			$begin 'SimSetup'
 				DataBlockID=16
@@ -1508,13 +1490,13 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 		$begin 'NexximPorts'
 			$begin 'Data'
 				$begin 'Port3'
-					DataId='Port2'
+					DataId='Port0'
 					IIPortName='Port3'
 					SymbolType=0
 					DoPostProcess=false
 				$end 'Port3'
 				$begin 'Port4'
-					DataId='Port3'
+					DataId='Port1'
 					IIPortName='Port4'
 					SymbolType=0
 					DoPostProcess=false
@@ -1568,15 +1550,15 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 						AlterName=''
 						$begin 'SimDataExtractor'
 							$begin 'QuantityIDs'
-								NextUniqueID=10
+								NextUniqueID=11
 								MoveBackwards=false
-								IDMap(0, 'S(Port1,Port1)', 1, 'S(Port3,Port3)', 2, 'B1', 3, 'K', 4, 'S(Port4,Port3)', 5, 'S(Port4,Port4)', 6, 'MSG', 7, 'GMAX', 8, 'INoise(Port3,Port3)', 9, 'NF')
+								IDMap(0, 'S(Port1,Port1)', 1, 'S(Port3,Port3)', 2, 'B1', 3, 'K', 4, 'S(Port4,Port3)', 5, 'S(Port4,Port4)', 6, 'MSG', 7, 'GMAX', 8, 'INoise(Port3,Port3)', 9, 'NF', 10, 'S(Port3,Port4)')
 							$end 'QuantityIDs'
 							$begin 'Sweeps'
 								$begin 'Sweep'
 									Variable='Freq'
-									Column='100MHz;104.666666666667MHz;109.333333333333MHz;114MHz;118.666666666667MHz;123.333333333333MHz;128MHz;132.666666666667MHz;137.333333333333MHz;142MHz;146.666666666667MHz;151.333333333333MHz;156MHz;160.666666666667MHz;165.333333333333MHz;170MHz;174.666666666667MHz;179.333333333333MHz;184MHz;188.666666666667MHz;193.333333333333MHz;198MHz;202.666666666667MHz;207.333333333333MHz;212MHz;216.666666666667MHz;221.333333333333MHz;226MHz;230.666666666667MHz;235.333333333333MHz;240MHz;244.666666666667MHz;249.333333333333MHz;254MHz;258.666666666667MHz;263.333333333333MHz;268MHz;272.666666666667MHz;277.333333333333MHz;282MHz;286.666666666667MHz;291.333333333333MHz;296MHz;300.666666666667MHz;305.333333333333MHz;310MHz;314.666666666667MHz;319.333333333333MHz;324MHz;328.666666666667MHz;333.333333333333MHz;338MHz;342.666666666667MHz;347.333333333333MHz;352MHz;356.666666666667MHz;361.333333333333MHz;366MHz;370.666666666667MHz;375.333333333333MHz;380MHz;384.666666666667MHz;389.333333333333MHz;394MHz;398.666666666667MHz;403.333333333333MHz;408MHz;412.666666666667MHz;417.333333333333MHz;422MHz;426.666666666667MHz;431.333333333333MHz;436MHz;440.666666666667MHz;445.333333333333MHz;450MHz;454.666666666667MHz;459.333333333333MHz;464MHz;468.666666666667MHz;473.333333333333MHz;478MHz;482.666666666667MHz;487.333333333333MHz;492MHz;496.666666666667MHz;501.333333333333MHz;506MHz;510.666666666667MHz;515.333333333333MHz;520MHz;524.666666666667MHz;529.333333333333MHz;534MHz;538.666666666667MHz;543.333333333333MHz;548MHz;552.666666666667MHz;557.333333333333MHz;562MHz;566.666666666667MHz;571.333333333333MHz;576MHz;580.666666666667MHz;585.333333333333MHz;590MHz;594.666666666667MHz;599.333333333333MHz;604MHz;608.666666666667MHz;613.333333333333MHz;618MHz;622.666666666667MHz;627.333333333333MHz;632MHz;636.666666666667MHz;641.333333333333MHz;646MHz;650.666666666667MHz;655.333333333333MHz;660MHz;664.666666666667MHz;669.333333333333MHz;674MHz;678.666666666667MHz;683.333333333333MHz;688MHz;692.666666666667MHz;697.333333333333MHz;702MHz;706.666666666667MHz;711.333333333333MHz;716MHz;720.666666666667MHz;725.333333333333MHz;730MHz;734.666666666667MHz;739.333333333333MHz;744MHz;748.666666666667MHz;753.333333333333MHz;758MHz;762.666666666667MHz;767.333333333333MHz;772MHz;776.666666666667MHz;781.333333333333MHz;786MHz;790.666666666667MHz;795.333333333333MHz;800MHz;804.666666666667MHz;809.333333333333MHz;814MHz;818.666666666667MHz;823.333333333333MHz;828MHz;832.666666666667MHz;837.333333333333MHz;842MHz;846.666666666667MHz;851.333333333333MHz;856MHz;860.666666666667MHz;865.333333333333MHz;870MHz;874.666666666667MHz;879.333333333333MHz;884MHz;888.666666666667MHz;893.333333333333MHz;898MHz;902.666666666667MHz;907.333333333333MHz;912MHz;916.666666666667MHz;921.333333333333MHz;926MHz;930.666666666667MHz;935.333333333333MHz;940MHz;944.666666666667MHz;949.333333333333MHz;954MHz;958.666666666667MHz;963.333333333333MHz;968MHz;972.666666666667MHz;977.333333333333MHz;982MHz;986.666666666667MHz;991.333333333333MHz;996MHz;1000.66666666667MHz;1005.33333333333MHz;1010MHz;1014.66666666667MHz;1019.33333333333MHz;1024MHz;1028.66666666667MHz;1033.33333333333MHz;1038MHz;1042.66666666667MHz;1047.33333333333MHz;1052MHz;1056.66666666667MHz;1061.33333333333MHz;1066MHz;1070.66666666667MHz;1075.33333333333MHz;1080MHz;1084.66666666667MHz;1089.33333333333MHz;1094MHz;1098.66666666667MHz;1103.33333333333MHz;1108MHz;1112.66666666667MHz;1117.33333333333MHz;1122MHz;1126.66666666667MHz;1131.33333333333MHz;1136MHz;1140.66666666667MHz;1145.33333333333MHz;1150MHz;1154.66666666667MHz;1159.33333333333MHz;1164MHz;1168.66666666667MHz;1173.33333333333MHz;1178MHz;1182.66666666667MHz;1187.33333333333MHz;1192MHz;1196.66666666667MHz;1201.33333333333MHz;1206MHz;1210.66666666667MHz;1215.33333333333MHz;1220MHz;1224.66666666667MHz;1229.33333333333MHz;1234MHz;1238.66666666667MHz;1243.33333333333MHz;1248MHz;1252.66666666667MHz;1257.33333333333MHz;1262MHz;1266.66666666667MHz;1271.33333333333MHz;1276MHz;1280.66666666667MHz;1285.33333333333MHz;1290MHz;1294.66666666667MHz;1299.33333333333MHz;1304MHz;1308.66666666667MHz;1313.33333333333MHz;1318MHz;1322.66666666667MHz;1327.33333333333MHz;1332MHz;1336.66666666667MHz;1341.33333333333MHz;1346MHz;1350.66666666667MHz;1355.33333333333MHz;1360MHz;1364.66666666667MHz;1369.33333333333MHz;1374MHz;1378.66666666667MHz;1383.33333333333MHz;1388MHz;1392.66666666667MHz;1397.33333333333MHz;1402MHz;1406.66666666667MHz;1411.33333333333MHz;1416MHz;1420.66666666667MHz;1425.33333333333MHz;1430MHz;1434.66666666667MHz;1439.33333333333MHz;1444MHz;1448.66666666667MHz;1453.33333333333MHz;1458MHz;1462.66666666667MHz;1467.33333333333MHz;1472MHz;1476.66666666667MHz;1481.33333333333MHz;1486MHz;1490.66666666667MHz;1495.33333333333MHz;1500MHz'
-									Units='MHz'
+									Column='0.1GHz;0.104666666666667GHz;0.109333333333333GHz;0.114GHz;0.118666666666667GHz;0.123333333333333GHz;0.128GHz;0.132666666666667GHz;0.137333333333333GHz;0.142GHz;0.146666666666667GHz;0.151333333333333GHz;0.156GHz;0.160666666666667GHz;0.165333333333333GHz;0.17GHz;0.174666666666667GHz;0.179333333333333GHz;0.184GHz;0.188666666666667GHz;0.193333333333333GHz;0.198GHz;0.202666666666667GHz;0.207333333333333GHz;0.212GHz;0.216666666666667GHz;0.221333333333333GHz;0.226GHz;0.230666666666667GHz;0.235333333333333GHz;0.24GHz;0.244666666666667GHz;0.249333333333333GHz;0.254GHz;0.258666666666667GHz;0.263333333333333GHz;0.268GHz;0.272666666666667GHz;0.277333333333333GHz;0.282GHz;0.286666666666667GHz;0.291333333333333GHz;0.296GHz;0.300666666666667GHz;0.305333333333333GHz;0.31GHz;0.314666666666667GHz;0.319333333333333GHz;0.324GHz;0.328666666666667GHz;0.333333333333333GHz;0.338GHz;0.342666666666667GHz;0.347333333333333GHz;0.352GHz;0.356666666666667GHz;0.361333333333333GHz;0.366GHz;0.370666666666667GHz;0.375333333333333GHz;0.38GHz;0.384666666666667GHz;0.389333333333333GHz;0.394GHz;0.398666666666667GHz;0.403333333333333GHz;0.408GHz;0.412666666666667GHz;0.417333333333333GHz;0.422GHz;0.426666666666667GHz;0.431333333333333GHz;0.436GHz;0.440666666666667GHz;0.445333333333333GHz;0.45GHz;0.454666666666667GHz;0.459333333333333GHz;0.464GHz;0.468666666666667GHz;0.473333333333333GHz;0.478GHz;0.482666666666667GHz;0.487333333333333GHz;0.492GHz;0.496666666666667GHz;0.501333333333333GHz;0.506GHz;0.510666666666667GHz;0.515333333333333GHz;0.52GHz;0.524666666666667GHz;0.529333333333333GHz;0.534GHz;0.538666666666667GHz;0.543333333333333GHz;0.548GHz;0.552666666666667GHz;0.557333333333333GHz;0.562GHz;0.566666666666667GHz;0.571333333333333GHz;0.576GHz;0.580666666666667GHz;0.585333333333333GHz;0.59GHz;0.594666666666667GHz;0.599333333333333GHz;0.604GHz;0.608666666666667GHz;0.613333333333333GHz;0.618GHz;0.622666666666667GHz;0.627333333333333GHz;0.632GHz;0.636666666666667GHz;0.641333333333333GHz;0.646GHz;0.650666666666667GHz;0.655333333333333GHz;0.66GHz;0.664666666666667GHz;0.669333333333333GHz;0.674GHz;0.678666666666667GHz;0.683333333333333GHz;0.688GHz;0.692666666666667GHz;0.697333333333333GHz;0.702GHz;0.706666666666667GHz;0.711333333333333GHz;0.716GHz;0.720666666666667GHz;0.725333333333333GHz;0.73GHz;0.734666666666667GHz;0.739333333333333GHz;0.744GHz;0.748666666666667GHz;0.753333333333333GHz;0.758GHz;0.762666666666667GHz;0.767333333333333GHz;0.772GHz;0.776666666666667GHz;0.781333333333333GHz;0.786GHz;0.790666666666667GHz;0.795333333333333GHz;0.8GHz;0.804666666666667GHz;0.809333333333333GHz;0.814GHz;0.818666666666667GHz;0.823333333333333GHz;0.828GHz;0.832666666666667GHz;0.837333333333333GHz;0.842GHz;0.846666666666667GHz;0.851333333333333GHz;0.856GHz;0.860666666666667GHz;0.865333333333333GHz;0.87GHz;0.874666666666667GHz;0.879333333333333GHz;0.884GHz;0.888666666666667GHz;0.893333333333333GHz;0.898GHz;0.902666666666667GHz;0.907333333333333GHz;0.912GHz;0.916666666666667GHz;0.921333333333333GHz;0.926GHz;0.930666666666667GHz;0.935333333333333GHz;0.94GHz;0.944666666666667GHz;0.949333333333333GHz;0.954GHz;0.958666666666667GHz;0.963333333333333GHz;0.968GHz;0.972666666666667GHz;0.977333333333333GHz;0.982GHz;0.986666666666667GHz;0.991333333333333GHz;0.996GHz;1.00066666666667GHz;1.00533333333333GHz;1.01GHz;1.01466666666667GHz;1.01933333333333GHz;1.024GHz;1.02866666666667GHz;1.03333333333333GHz;1.038GHz;1.04266666666667GHz;1.04733333333333GHz;1.052GHz;1.05666666666667GHz;1.06133333333333GHz;1.066GHz;1.07066666666667GHz;1.07533333333333GHz;1.08GHz;1.08466666666667GHz;1.08933333333333GHz;1.094GHz;1.09866666666667GHz;1.10333333333333GHz;1.108GHz;1.11266666666667GHz;1.11733333333333GHz;1.122GHz;1.12666666666667GHz;1.13133333333333GHz;1.136GHz;1.14066666666667GHz;1.14533333333333GHz;1.15GHz;1.15466666666667GHz;1.15933333333333GHz;1.164GHz;1.16866666666667GHz;1.17333333333333GHz;1.178GHz;1.18266666666667GHz;1.18733333333333GHz;1.192GHz;1.19666666666667GHz;1.20133333333333GHz;1.206GHz;1.21066666666667GHz;1.21533333333333GHz;1.22GHz;1.22466666666667GHz;1.22933333333333GHz;1.234GHz;1.23866666666667GHz;1.24333333333333GHz;1.248GHz;1.25266666666667GHz;1.25733333333333GHz;1.262GHz;1.26666666666667GHz;1.27133333333333GHz;1.276GHz;1.28066666666667GHz;1.28533333333333GHz;1.29GHz;1.29466666666667GHz;1.29933333333333GHz;1.304GHz;1.30866666666667GHz;1.31333333333333GHz;1.318GHz;1.32266666666667GHz;1.32733333333333GHz;1.332GHz;1.33666666666667GHz;1.34133333333333GHz;1.346GHz;1.35066666666667GHz;1.35533333333333GHz;1.36GHz;1.36466666666667GHz;1.36933333333333GHz;1.374GHz;1.37866666666667GHz;1.38333333333333GHz;1.388GHz;1.39266666666667GHz;1.39733333333333GHz;1.402GHz;1.40666666666667GHz;1.41133333333333GHz;1.416GHz;1.42066666666667GHz;1.42533333333333GHz;1.43GHz;1.43466666666667GHz;1.43933333333333GHz;1.444GHz;1.44866666666667GHz;1.45333333333333GHz;1.458GHz;1.46266666666667GHz;1.46733333333333GHz;1.472GHz;1.47666666666667GHz;1.48133333333333GHz;1.486GHz;1.49066666666667GHz;1.49533333333333GHz;1.5GHz'
+									Units='GHz'
 								$end 'Sweep'
 								$begin 'Sweep'
 									Variable='Rb2'
@@ -1648,11 +1630,11 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 					$end 'Solution'
 				$end 'SimSetup'
 				$begin 'Version ID Map'
-					V=131
+					V=134
 					$begin 'Setup'
 						N='LinearFrequency'
-						V=131
-						Soln(N='LinearFrequency', V=131)
+						V=134
+						Soln(N='LinearFrequency', V=134)
 					$end 'Setup'
 				$end 'Version ID Map'
 			$end 'SimDataExtractors'
@@ -1678,7 +1660,6 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 	$end 'NexximCircuit'
 	$begin 'DataInstances'
 		DesignEditor='TopLevel'
-		Refdes('82', 'U2')
 		Refdes('0', 'U1')
 		$begin 'CompInstances'
 			$begin 'Compinst'
@@ -1689,30 +1670,33 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 				$begin 'Properties'
 					TextProp('ID', 'SRID', '', '0')
 				$end 'Properties'
+				$begin 'Parameters'
+					MenuProp('CoSimulator', 'OHD', '', 'DefaultNetlist', 0)
+					ButtonProp('CosimDefinition', 'OHD', '', '', 'Edit', 40501, ButtonPropClientData())
+				$end 'Parameters'
 			$end 'Compinst'
 		$end 'CompInstances'
 		$begin 'Instance'
 			DesignEditor='Circuit1'
 			ID='0'
-			Refdes('106', 'C10')
-			Refdes('96', 'S2')
-			Refdes('99', 'R8')
-			Refdes('101', 'R10')
-			Refdes('103', 'C7')
-			Refdes('102', 'C6')
-			Refdes('100', 'R9')
-			Refdes('98', 'R7')
-			Refdes('104', 'C8')
 			Refdes('97', 'R6')
+			Refdes('103', 'C7')
+			Refdes('100', 'R9')
+			Refdes('104', 'C8')
 			Refdes('105', 'C9')
+			Refdes('98', 'R7')
+			Refdes('102', 'C6')
+			Refdes('99', 'R8')
+			Refdes('96', 'S2')
 			Refdes('107', 'S3')
-			Refdes('109', 'C11')
 			Refdes('108', 'S4')
+			Refdes('106', 'C10')
+			Refdes('109', 'C11')
 			$begin 'NexximCircuit'
 				DesignInstanceID=1
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						Circuit(Schematic(View(WindowPos(3, -1, -1, -10, -33, 130, 130, 1596, 640), Extent(-0.507, -0.507, 1.015, 1.015, 3779.52755904, 3779.52755904, 0.0216424072844168, 0.0434205376907266, 0.152664352940592, 0.0832821740192891, 2.24610390963245), Pages(1, 1, -0.0243590163934426, -0.0127, 0.214859016393443, 0.1016))), Layout())
+						Circuit(Schematic(View(WindowPos(5, -1, -1, -10, -33, 130, 130, 1448, 640), Extent(-0.507, -0.507, 1.015, 1.015, 3779.52755904, 3779.52755904, -0.0255929209529766, 0.0434205376907266, 0.247135009415379, 0.0832821740192891, 1.36608865790941), Pages(1, 1, 0.0216424072844167, -0.0398616363285625, 0.174306760225009, 0.0434205376907266))), Layout())
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -2047,6 +2031,158 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 										$end 'TraceComponentDefinition'
 										$begin 'TraceComponentDefinition'
 											Expr='dB(S(Port4,Port4))'
+										$end 'TraceComponentDefinition'
+									$end 'Components'
+									$begin 'ExtendedTraceInfo'
+										NumPoints=0
+										TraceType=0
+										Offset=0
+										XLabel=''
+										SamplingPeriod='0'
+										SamplingPeriodOffset='0'
+										AutoDelay=true
+										DelayValue='0ps'
+										AutoCompCrossAmplitude=true
+										CrossingAmplitude='0mV'
+										YAxis=1
+										AutoCompEyeMeasurementPoint=true
+										EyeMeasurementPoint='0ps'
+										EyePamLow()
+										EyePamVRef()
+										EyePamHigh()
+										EyePamNames()
+										EyePamStrictVRef=false
+									$end 'ExtendedTraceInfo'
+									$begin 'TraceFamiliesDisplayDefinition'
+										DisplayFamiliesType='DisplayAll'
+									$end 'TraceFamiliesDisplayDefinition'
+									$begin 'PointsetDefinition'
+										$begin 'SubsweepDefParamsContainer'
+											$begin '0'
+												SubsweepType='Regular'
+												SubsweepChoiceType='All'
+												SweepVariableName='Freq'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '0'
+											$begin '1'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='Rb2'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '1'
+											$begin '2'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='Rc1'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '2'
+											$begin '3'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='Rb1'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '3'
+											$begin '4'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='Rc2'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '4'
+											$begin '5'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='R1'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '5'
+											$begin '6'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='C2'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '6'
+											$begin '7'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='C3'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '7'
+											$begin '8'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='C1'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '8'
+											$begin '9'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='L1'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '9'
+											$begin '10'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='L2'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '10'
+											$begin '11'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='C2_r'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '11'
+											$begin '12'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='C1_r'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '12'
+											$begin '13'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='C11_r'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '13'
+										$end 'SubsweepDefParamsContainer'
+										FamilyBlock()
+									$end 'PointsetDefinition'
+									DesignInstanceID=1
+								$end 'TraceDef'
+								$begin 'TraceDef'
+									TraceDefinitionType='TraceDefinition'
+									$begin 'DesignSolnDefn'
+										$begin 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+											DesignID=0
+											SolutionID=80
+											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+												ReportType=0
+												SimValueContext(3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+									$end 'DesignSolnDefn'
+									ID=15
+									VersionID=23
+									Name='dB(S(Port3,Port4))'
+									TieNameToExpr=true
+									$begin 'Components'
+										$begin 'TraceComponentDefinition'
+											Expr='Freq'
+										$end 'TraceComponentDefinition'
+										$begin 'TraceComponentDefinition'
+											Expr='dB(S(Port3,Port4))'
 										$end 'TraceComponentDefinition'
 									$end 'Components'
 									$begin 'ExtendedTraceInfo'
@@ -2947,10 +3083,10 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 								$end 'TraceDef'
 							$end 'Gain Plot 1'
 						$end 'Reports'
-						NextUniqueID=15
+						NextUniqueID=16
 						MoveBackwards=false
 						$begin 'NextVersID'
-							NextUniqueID=22
+							NextUniqueID=24
 							MoveBackwards=false
 						$end 'NextVersID'
 					$end 'ReportManager'
@@ -2965,7 +3101,7 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 								Title=''
 								Domain=''
 								$begin 'Migration'
-									MigVersion(0, 0, 'mig(0.0)')
+									MigVersion(1, 0, '2021R1 mig(1.0)')
 								$end 'Migration'
 								$begin 'Graph2DsV2'
 									$begin 'Graph2D'
@@ -2983,9 +3119,14 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 										Type='Continuous'
 										Axis='Y1'
 									$end 'Graph2D'
+									$begin 'Graph2D'
+										TraceDefID=15
+										Type='Continuous'
+										Axis='Y1'
+									$end 'Graph2D'
 								$end 'Graph2DsV2'
 								$begin 'PlotDisplayDataManager'
-									NextUniqueID=45
+									NextUniqueID=54
 									MoveBackwards=false
 									$begin 'PlotHeaderDataSource'
 										CompanyName=''
@@ -3078,6 +3219,12 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 														YAxis='Y1'
 													$end 'CurveCartesianAttribute'
 												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=52
+													$begin 'CurveCartesianAttribute'
+														YAxis='Y1'
+													$end 'CurveCartesianAttribute'
+												$end 'SubMapItem'
 											$end 'MainMapItem'
 											$begin 'MainMapItem'
 												$begin 'SubMapItem'
@@ -3123,6 +3270,22 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 														TraceType='Continuous'
 														SymbolType='HollowVerticalDownTriangle'
 														SymbolColor(R=79, G=17, B=25)
+														ShowSymbols=false
+														SymbolFrequency=15
+														ShowArrows=false
+													$end 'CurveRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=52
+													$begin 'CurveRenderAttribute'
+														$begin 'LineRenderAttribute'
+															LineStyle='Solid'
+															LineWidth=3
+															LineColor(R=247, G=147, B=30)
+														$end 'LineRenderAttribute'
+														TraceType='Continuous'
+														SymbolType='VerticalEllipse'
+														SymbolColor(R=125, G=155, B=61)
 														ShowSymbols=false
 														SymbolFrequency=15
 														ShowArrows=false
@@ -4323,17 +4486,17 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=36
+											ItemID=51
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
 														DataSourceID=4
 														$begin 'BasicLayoutAttribute'
 															$begin 'LayoutRect'
-																Top=589
-																Left=779
-																Bottom=9484
-																Right=8361
+																Top=841
+																Left=785
+																Bottom=9329
+																Right=8348
 															$end 'LayoutRect'
 														$end 'BasicLayoutAttribute'
 													$end 'SubMapItem'
@@ -4341,10 +4504,10 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 														DataSourceID=28
 														$begin 'BasicLayoutAttribute'
 															$begin 'LayoutRect'
-																Top=589
-																Left=779
-																Bottom=9484
-																Right=8361
+																Top=841
+																Left=785
+																Bottom=9329
+																Right=8348
 															$end 'LayoutRect'
 														$end 'BasicLayoutAttribute'
 													$end 'SubMapItem'
@@ -4355,7 +4518,7 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 																Top=75
 																Left=75
 																Bottom=9925
-																Right=542
+																Right=546
 															$end 'LayoutRect'
 														$end 'BasicLayoutAttribute'
 													$end 'SubMapItem'
@@ -4366,15 +4529,15 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 														$begin 'CartesianAxisLayoutAttribute'
 															$begin 'AxisRect'
 																Top=75
-																Left=8361
+																Left=8348
 																Bottom=9925
-																Right=9422
+																Right=9418
 															$end 'AxisRect'
 															$begin 'GridRect'
-																Top=589
-																Left=779
-																Bottom=9484
-																Right=8361
+																Top=841
+																Left=785
+																Bottom=9329
+																Right=8348
 															$end 'GridRect'
 															AxisCollapsed=false
 															AxisExpandCollapseByUser=false
@@ -4385,15 +4548,15 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 														$begin 'CartesianAxisLayoutAttribute'
 															$begin 'AxisRect'
 																Top=75
-																Left=779
-																Bottom=589
-																Right=8361
+																Left=785
+																Bottom=841
+																Right=8348
 															$end 'AxisRect'
 															$begin 'GridRect'
-																Top=589
-																Left=779
-																Bottom=9484
-																Right=8361
+																Top=841
+																Left=785
+																Bottom=9329
+																Right=8348
 															$end 'GridRect'
 															AxisCollapsed=false
 															AxisExpandCollapseByUser=false
@@ -4407,8 +4570,8 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 															X_spc=200000000
 															X_fwd=3
 															X_fpr=2
-															Y1_spc=12.5
-															Y1_fwd=4
+															Y1_spc=20
+															Y1_fwd=5
 															Y1_fpr=2
 														$end 'CartesianCurveGroupLayoutAttribute'
 													$end 'SubMapItem'
@@ -4423,6 +4586,15 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 															LineMaxYXOutOfGrid=8361
 														$end 'CartesianXMarkerLayoutAttribute'
 													$end 'SubMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=50
+														$begin 'CartesianXMarkerLayoutAttribute'
+															TextBoxMaxY=9519
+															TextBoxHeight=406
+															LineMaxYXInGrid=785
+															LineMaxYXOutOfGrid=8348
+														$end 'CartesianXMarkerLayoutAttribute'
+													$end 'SubMapItem'
 												$end 'MainMapItem'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
@@ -4432,14 +4604,38 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 																$begin 'OverlayLayoutAttribute'
 																	$begin 'BoundingRect'
 																		Top=4850
-																		Left=642
+																		Left=646
 																		Bottom=9850
-																		Right=8142
+																		Right=8146
 																	$end 'BoundingRect'
 																	ModifySize=false
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -4453,6 +4649,7 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 										IDMapItem(3, 0, -1, 37)
 										IDMapItem(5, 0, -1, 39)
 										IDMapItem(6, 0, -1, 41)
+										IDMapItem(15, 0, -1, 52)
 									$end 'SourceIDMap'
 									$begin 'TraceCharacteristicsMgr'
 									$end 'TraceCharacteristicsMgr'
@@ -4468,7 +4665,7 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 									$begin 'AllTransSrcDwg'
 										$begin 'PT'
 											ID=1
-											TransSrcDwg(-1, 0, 35, 1, 31, 2, 32, 5, 6, 27, 28, 37, 38, 39, 40, 41, 42)
+											TransSrcDwg(-1, 0, 35, 1, 31, 2, 32, 5, 6, 27, 28, 37, 38, 39, 40, 41, 42, 52, 53)
 										$end 'PT'
 									$end 'AllTransSrcDwg'
 									$begin 'AllPtSVID'
@@ -4487,7 +4684,7 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 								Title=''
 								Domain=''
 								$begin 'Migration'
-									MigVersion(0, 0, 'mig(0.0)')
+									MigVersion(1, 0, '2021R1 mig(1.0)')
 								$end 'Migration'
 								$begin 'Graph2DsV2'
 									$begin 'Graph2D'
@@ -4502,7 +4699,7 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 									$end 'Graph2D'
 								$end 'Graph2DsV2'
 								$begin 'PlotDisplayDataManager'
-									NextUniqueID=41
+									NextUniqueID=47
 									MoveBackwards=false
 									$begin 'PlotHeaderDataSource'
 										CompanyName=''
@@ -5877,7 +6074,7 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=36
+											ItemID=46
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
@@ -5983,6 +6180,30 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -6029,7 +6250,7 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 								Title=''
 								Domain=''
 								$begin 'Migration'
-									MigVersion(0, 0, 'mig(0.0)')
+									MigVersion(1, 0, '2021R1 mig(1.0)')
 								$end 'Migration'
 								$begin 'Graph2DsV2'
 									$begin 'Graph2D'
@@ -6049,7 +6270,7 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 									$end 'Graph2D'
 								$end 'Graph2DsV2'
 								$begin 'PlotDisplayDataManager'
-									NextUniqueID=47
+									NextUniqueID=54
 									MoveBackwards=false
 									$begin 'PlotHeaderDataSource'
 										CompanyName=''
@@ -7409,17 +7630,17 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=36
+											ItemID=53
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
 														DataSourceID=4
 														$begin 'BasicLayoutAttribute'
 															$begin 'LayoutRect'
-																Top=589
-																Left=779
-																Bottom=9484
-																Right=8361
+																Top=514
+																Left=529
+																Bottom=9594
+																Right=8936
 															$end 'LayoutRect'
 														$end 'BasicLayoutAttribute'
 													$end 'SubMapItem'
@@ -7427,10 +7648,10 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 														DataSourceID=28
 														$begin 'BasicLayoutAttribute'
 															$begin 'LayoutRect'
-																Top=589
-																Left=779
-																Bottom=9484
-																Right=8361
+																Top=514
+																Left=529
+																Bottom=9594
+																Right=8936
 															$end 'LayoutRect'
 														$end 'BasicLayoutAttribute'
 													$end 'SubMapItem'
@@ -7441,7 +7662,7 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 																Top=75
 																Left=75
 																Bottom=9925
-																Right=542
+																Right=370
 															$end 'LayoutRect'
 														$end 'BasicLayoutAttribute'
 													$end 'SubMapItem'
@@ -7452,15 +7673,15 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 														$begin 'CartesianAxisLayoutAttribute'
 															$begin 'AxisRect'
 																Top=75
-																Left=8361
+																Left=8936
 																Bottom=9925
-																Right=9422
+																Right=9607
 															$end 'AxisRect'
 															$begin 'GridRect'
-																Top=589
-																Left=779
-																Bottom=9484
-																Right=8361
+																Top=514
+																Left=529
+																Bottom=9594
+																Right=8936
 															$end 'GridRect'
 															AxisCollapsed=false
 															AxisExpandCollapseByUser=false
@@ -7471,15 +7692,15 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 														$begin 'CartesianAxisLayoutAttribute'
 															$begin 'AxisRect'
 																Top=75
-																Left=779
-																Bottom=589
-																Right=8361
+																Left=529
+																Bottom=514
+																Right=8936
 															$end 'AxisRect'
 															$begin 'GridRect'
-																Top=589
-																Left=779
-																Bottom=9484
-																Right=8361
+																Top=514
+																Left=529
+																Bottom=9594
+																Right=8936
 															$end 'GridRect'
 															AxisCollapsed=false
 															AxisExpandCollapseByUser=false
@@ -7509,6 +7730,15 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 															LineMaxYXOutOfGrid=8361
 														$end 'CartesianXMarkerLayoutAttribute'
 													$end 'SubMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=52
+														$begin 'CartesianXMarkerLayoutAttribute'
+															TextBoxMaxY=9670
+															TextBoxHeight=255
+															LineMaxYXInGrid=529
+															LineMaxYXOutOfGrid=8936
+														$end 'CartesianXMarkerLayoutAttribute'
+													$end 'SubMapItem'
 												$end 'MainMapItem'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
@@ -7518,14 +7748,38 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 																$begin 'OverlayLayoutAttribute'
 																	$begin 'BoundingRect'
 																		Top=4850
-																		Left=642
+																		Left=470
 																		Bottom=9850
-																		Right=8142
+																		Right=7970
 																	$end 'BoundingRect'
 																	ModifySize=false
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -7571,7 +7825,7 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 								$begin 'Report2D'
 									$begin 'ViewInfo'
 										$begin 'WrapperView'
-											ID(36)
+											ID(51)
 										$end 'WrapperView'
 										$begin 'WrapperDoc'
 											HiddenDrawings()
@@ -7581,13 +7835,13 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 													$begin 'MedCamera'
 														$begin 'svrc'
 															svid=4
-															view(36, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1)))
+															view(51, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1)))
 														$end 'svrc'
 													$end 'MedCamera'
 												$end 'CurveMed'
 											$end 'DispType'
 										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 234, 234, 1704, 748))
+										WindowPos(WindowPos(5, -1, -1, -8, -31, 26, 26, 1110, 536))
 									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
@@ -7598,7 +7852,7 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 								$begin 'Report2D'
 									$begin 'ViewInfo'
 										$begin 'WrapperView'
-											ID(36)
+											ID(46)
 										$end 'WrapperView'
 										$begin 'WrapperDoc'
 											HiddenDrawings()
@@ -7608,13 +7862,13 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 													$begin 'MedCamera'
 														$begin 'svrc'
 															svid=4
-															view(36, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1)))
+															view(46, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1)))
 														$end 'svrc'
 													$end 'MedCamera'
 												$end 'CurveMed'
 											$end 'DispType'
 										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 0, 0, 1470, 514))
+										WindowPos(WindowPos(5, -1, -1, -8, -31, 52, 52, 1522, 566))
 									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
@@ -7625,7 +7879,7 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 								$begin 'Report2D'
 									$begin 'ViewInfo'
 										$begin 'WrapperView'
-											ID(36)
+											ID(53)
 										$end 'WrapperView'
 										$begin 'WrapperDoc'
 											HiddenDrawings()
@@ -7635,13 +7889,13 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 													$begin 'MedCamera'
 														$begin 'svrc'
 															svid=4
-															view(36, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1)))
+															view(53, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1)))
 														$end 'svrc'
 													$end 'MedCamera'
 												$end 'CurveMed'
 											$end 'DispType'
 										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 26, 26, 1496, 540))
+										WindowPos(WindowPos(3, -1, -1, -8, -31, 78, 78, 1548, 592))
 									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
@@ -7719,6 +7973,7 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 				'rectangle description'=0
 				snaptoport=true
 				autoplacecomp=false
+				'sym footprint scaling'=0.558800000000203
 				AutoScale=true
 				'measure display digits'=3
 				'display measure units'=false
@@ -7754,6 +8009,14 @@ C11_r = 6.8pF', true, true, ExtentRect(0, 0, 0, 0, 0.0639404673202264, 0.0201446
 			$end 'TopLayout'
 		$end 'Instance'
 		$begin 'SODInfo'
+			$begin 'Circuit1'
+				$begin 'CosimDefinition'
+					CosimDefName='DefaultNetlist'
+					$begin 'SODInstanceMap'
+					$end 'SODInstanceMap'
+					SODComponentList()
+				$end 'CosimDefinition'
+			$end 'Circuit1'
 			$begin 'Nexxim Circuit Elements\\Resistors:RES_'
 				$begin 'CosimDefinition'
 					CosimDefName='DefaultNetlist'
@@ -7892,36 +8155,35 @@ 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\
-Y+O3ibwF4hXRRd+D/EHjXV9Z1i68W3unzW9z4kudWuZ9ZkvZZ5Wf2CvyS+HX7bX7d/xI+H3xm+JFh+w\
-98CtB0b4E/Ev48/C7xlpHiL9pn9spfGOv6t+z54n17w34n174Q+ENC/4JQX9/8AHjwlq8egteeGLzwV\
-Drza5/aCaNbwr4ptdU0DT879j39sL9v39rj9n7w9+1Hpv7OH7O3hf4UfHbwp/wALP/Z30TTfiX8cb74\
-raP4P1L9n/XNQ8OeGPjD4R+NnwL+GdrfXt5+0NoWmNZeLPDupT+H9a8JfEDT20SzvdHtofiNrPZnHh9\
-nuRQnUzHMMklCniPq0vqvEnD2YzVX2depf2WXZni6zoWw9SLxUabw0akqFKVZVMTh4Vfq8x4kwWXZXP\
-N44TG5nh4qjKMMFgcViq1WNerSpQlSpUqTnUinWjUm4q1OjGpXm1SpVJR/X6ivzw8b+KP8AgrFEnxns\
-vhv8Dv8Agnheyaj9q/4Z58SeN/2qf2k9LTwf53wz8MWdl/wufwToP7HF4fiP9m+McXjPUZf7D8QeFft\
-vhm/0zRk+waraXWu3vzh+zx8R/wDgrTrn/BQseDP2jvhj4f8AD37Pmg/B/wCLmq/FF/h23hGz/ZH0CD\
-xr4+8L6j+x3dfs6fGbxF4fv/il+1X+0/Y6H4W+NXh74uW+v6R8F/Bul2N5omuaZ4KsGTwtqfxV+Zx+V\
-YrLqWCrYirhqkMfBzgqGMweKlGMZOLVaGFr1p4ad1dU8RGlUlG04xcGpHr4XFUsZQpYijGpCnVjCaVW\
-jWoTSnFSSlSrwp1ISSaU4ThGcJXhOMZpxX7PUUUV5p0hX8wv7QP7JWu+NP8AgrX4q+HNp+yN+yH4u+I\
-/x4/aD/ZO/wCCnvgH9uvx8fHuk/HH4Hfs6/sGeNf+CX3ws+LnwF8G+JLn9jHU9O174h65rvww8bHS/D\
-3h/wCK8Edpo3xZudR8YW/hqDWNIi8Vf09V8AeIv2JPEevf8FNfh1/wULtvjr/wjXh/4f8A7IHi79la6\
-+BPh34KfCyLWPiJ/wAJn8T4PiRqGufEX9oXVdOu/E2r/D+0vdI8J3OkeErKPT/7G13wu+q6Zrtrp/iT\
-xroPifSk6Sk3WhKpDlmkoyUHzuElTk24TTjGfLKceVOcFKEZ03JVIp36Oz/q/bp92+ux9/1+aX/BZRP\
-hy3/BKf8A4KCt8VfCEfjjwhB+yl8YrtNFl+Gus/FiKz8YWXhK/u/ht4tk8J6D4a1aeyj8P/EeDwprx8\
-QPaJZ+ER4bPizUdQ0nT9EudVsv0tr5g/bJ/ZD+DX7d/wCzx4x/Za/aDsvEGrfBv4h+IPhZrPjrQvDOv\
-T+GNR8Tad8K/i34F+L9n4TudfsYjd6X4f1bV/AWnabq0mnS2Wq/2Vql6uk6npWpG11K09DI81q5DnWT\
-55Qw1HGV8mxWHxcKOIg6mHqzw9WFaNOvTjKDnRm4KNWCnByg5RUot3U1IKrTqU23FVIuLa0aurXT6Nd\
-PM+n6K5/wn4T8K+AvCvhnwL4F8M+H/BfgnwX4f0bwn4O8HeE9G07w54V8J+FfDmnW2j+HvDPhnw9o9t\
-DaaD4fsNIs7O1srK1hitrW2tY4II0iRVHQV5ZZ/OBrXwX1L9qL9kb/AIKWa54W8EeFfiLpTf8ABSaTx\
-FrfwR+OfwY+KWm+Gvil4b/4J5/8FBNA+Jvxp8C3ms+CvgF47134+eC/HHhT4TeK9F0Gx8H+E/iFpn27\
-U5NFj09/Fd54v8NaT9Uf8EPvClpL+y38Rf2jPDf7O3wf/ZG+GP7bvxn0D9qf4Q/szfBTTvE+keFfg74\
-E1D9ln9mX4JXGi6hp3iP9n74aQDxBqnjr4I+NfEct7oXhy48MazbeNLTXfDviPxPpWp22u33cfBr/AI\
-JreNPg/wDBr/gpj8JYf2lPD/im2/b8+MH7Xnxb8C2eufsmfAK5+HvwA1H9qufx1ql5J458C32mXN3+2\
-L4gtdX8b29trdz8RtevtK8QeGfh94b8I2Og+GtEsLqDUPoD/gm9+x7qP7Af7EvwD/Y+1T4keH/i9c/A\
-3w/4h8MxfEbwz8HPCvwF07xPp2peOPFHijR7m5+Gvg7Vb+0s/EEOka9Y2uratNfX2q+J9Vsb3xPrt7d\
-a3rGoXEns5pmdDNa2PxlfD1Fjq9Sh7GftaXs6eGpUqlJ0qtOOGg61aSWF5cRCdCMfZV+fD1ZYiMsP8t\
-wbwhk/AnD+C4Y4fhUpZRgqmLqxjVq1K9T2uNxlbHV5e1qzlJQeIxNeUaesKcJQpUlCnTjA+36KKK8Y+\
-pCiiigAooooAKKKKACiiigAooooAKKKKAP/2Q=='
+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'
 	$begin 'DesignInfo'
 		DesignName='Circuit1'
 		Notes=''
@@ -8054,89 +8316,77 @@ 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\
-F/wkUn/AAsH4j3f/CO/aoPD32nSv+KT8MeNPFX9pN/wiX9j6xwPh7/gvH4a8XWFxqvhT/glR/wWo8T6\
-Xaa54n8MXWpeHv2GrDWrC28S+CfEureDPGfh64vNN+MEscOuaR4w0DXdJ1S0ZhcWGpaLd2F3HFdW00S\
-fW8M/R/8AF7jHKJ59w5wfLMsop1vq8q6xuXUoRrcrkqclXxlKSlKKk43j76jNxvySt91lHGXDee5dhM\
-2yrMvrWX45TdKp7GvT51TqyozfJUpQqLlqwlH3oq9rq8Wm/wB4KK/B/wAQ/wDBePw14RsLfVfFf/BKj\
-/gtR4Y0u71zwx4YtdS8Q/sNWGi2Fz4l8beJdJ8GeDPD1veal8YIo5tc1fxhr+haTpdorG4v9S1q0sLS\
-OW6uYYn7f4Ff8FmP+F2fEr4g/Dz/AIdv/wDBSrwj/wAIai3v9taj+zr9si8NY0TwDff8K7+OFn/wkcH\
-/AApv9oO4/wCEx/4SDTvBvna39t+HOteE/HP9sQ/8JR/YWk83FvgV4rcDZVg874q4TllWVZhilgqNd4\
-zL60KmKdN1vYx+r4urLmVJc8m0owThzSTnBSeZ8Y8OZNhK2OzLMvq2Fw8XKcvZV5uMYwlNvlp0pzfuw\
-k9Iu9mld6H7U0V+WWkftxeOI/iRe6tffBz9pfW/Bepa98WtB074LaP8GdIufi/4U/4RTwB+x1q+jaz4\
-q8Nw30d3pugpqvxA+JFxHcSahN5yfEHTVlR41sI7LxD40f8ABar/AIU58f8AwN8D/wDh2f8A8FPfiJ/\
-wmPwe8dfFb+1Ph3+zV/b/AIok/wCER8a+AvCH2Dwp4G/4SeP/AIS3QbH/AIS/zPF2rf2nZf8ACK3Hij\
-wLZ/YdX/4TP7RongZR4acY8QZtleR5JlccyzTOIzdClHEYeld06datUhKeIq0acZQp0Ksm3Pkly2hKU\
-pRT+M4S8bPD7jTMsyynJsyrLMMtrVKTp1sLXh7WFOFGosRSmoTh7GpCvTlCNWVLEK7VShTasft5RX8z\
-/wAXv+DkL/hVvx2/Zr+Dv/Doj/grFc/8L8/4XH/xKPFX7OP/AAhfx21P/hVng7TPFP8Axj98C/7X1D/\
-hoPyf7Q83xX/xUPhn/hE9HWPWP+Jz5v2FP0B+CnxJ+Mv/AAUW8K6h8fvAvjb4wfsPR/DDxBdeHvhR+z\
-h8TfA0Gk/G/wAEfGXStO0rU9Z13/go98CrnXIpZ/D+teCfEdnB4c+Elrrunxy/DT4rWnxbg8YwfELxT\
-8K9X+Bfh8U8LZ7wXnuO4Z4mwP8AZud5b7L29D2tGtye2o08RS/eYepVoy5qNWnP3KkuXm5ZWkpRX6pQ\
-r0sTShWoy56U72dmr2bT0aT3T3R+r9FfIH7FP7WX/DYnws1/4i/8Kh+IHwo/4RX4gar8N/7Q8S2/9o/\
-Cz4z/ANh+HPCuu/8AC9/2Svil9ks/+GhP2QPEX/CT7/AfxD/sjQP+Es07TpNR/sHSt32VSvnzU+v6+Y\
-Pgp+yH8GvgJ4q1DxV4FsvEE0ln4fuvAHwo0DxJr0+veFf2b/g1qWo6V4l1n4Efs5aFcxCL4V/B+98ba\
-TZ6rPpVqZJBbaD4V8IQXUPw9+Gvwr8H+Bvp+igAooooAwfFXhjQ/G3hfxJ4M8T2P9p+GvF2g6x4Y8Q6\
-b9pvLL+0ND17T7jStWsftmn3EVxaebYXdxH5sEsU0fmbopEcKwPDfhjQ/COn3GleHrH+z7C717xV4nu\
-IPtN5d+ZrnjbxRrHjPxPfebfXErp9p8S69q1z5SsIYftfk28cVvHFEm9RWntqvsvYe1l7Dm5+TmfJz2\
-5eblvbmtpzWvbS9jj/ALOy/wDtD+1vqNH+1fY/V/rPsofWPq/P7X2HtuX2nsfafvPZc3Jz+/y82p4B+\
-0J+078Iv2X9H8B6z8W7v4gf8XQ+IC/C34e+H/hb8E/jZ+0B478YeO/+EE8d/E6bQtC+HHwB+HvifxBe\
-+R8P/hl481a6ul0z7HaWfhm4kubiL92H/Iv9jz9rv4f/AAk/aS/bu8QfGTxF+33p/g/9rP8Ab0+B9n+\
-zrffH3/gnH+1T8JvhdFF8TfgT+yd8BPAzf8LE/wCGIPCtr4CkvvjnqX/CrLI+PNcgD6X8FvCWoTB9Y1\
-jX/GHjT60/4KNfFj4WfA74n/8ABLr4pfGv4l/D/wCD/wAMvC/7f/jP/hJviL8UvGXhz4f+BPDv9t/8E\
-yv+Cjnh3Rv7d8XeLNStNP0j7X4g1fSrG1+0XEf2i81O3tYt880aN8gftcf8FVP+Ccf7TOl6D+zR8Av2\
-z/2f/iv8bfCv7f8A/wAEgv8AiivB/j7S9R/4TX+3P+Cjv7J3j/8A4s74j3rpHx3/ALN8JaBrN34h/wC\
-EKv8AX/8AhF/7Olg8R/2Vcr5NdGGzDG4OhmOGwuIlQoZtRjh8TGO1ajHEUMVGnPvFYjDUKqtb36UXtd\
-PqlCMnByV3B3Xk7ON/ubXzP3g8SeGND8Xafb6V4hsf7QsLTXvCvie3g+03lp5eueCfFGj+M/DF95tjc\
-RO/2bxLoOk3PlMxhm+yeTcRy28ksTnhXwxofgnwv4b8GeGLH+zPDXhHQdH8MeHtN+03l7/Z+h6Dp9vp\
-Wk2P2zULiW4u/KsLS3j82eWWaTy90sjuWY71Fc/tqvsvYe1l7Dm5+TmfJz25eblvbmtpzWvbS9jl/s7\
-L/wC0P7W+o0f7V9j9X+s+yh9Y+r8/tfYe25faex9p+89lzcnP7/LzahXyB+0L+yTdfHH4p/CT41+Ef2\
-lP2gP2Z/ib8H/h/wDGb4W6P4m+Ben/ALOOt/8ACReBPjr4j+CHizxvoXinRv2kP2efiFp8m3xB+z58O\
-rixutOtNNvLf7PeRPcTQXTRr9f0Vmdh+Av7EPwv+JX/AAUG+DMXxI+N37ef/BQPxr4U+E/7ffxFli+E\
-nxQ/Zv8A2Wv2bfD3jOL9hX9vXUfHP7NEnifTNb/4J1+DPG9xHPo3we+DF54xOh6zpYj8T2/ifwrcnQN\
-V0rW/DWjfv1Xw7/wT1/5IL4+/7Pi/4Kdf+vJ/2sq+4q+k4xyOlwzxdxVw3QryxVDh/MsdgYVZpKdSGE\
-xVWhGclHRSmqalJLRNtLQxw1V18PQrNcrrQjJrtzRTt8rhWDceFfC93rlt4nuvDeg3PiWy+w/Y/ENxo\
-+nza5af2ZZ+J9P037Nq0lubiD7PYeNvGcEG2QeVD4u1OKPal/drLvUV87Gc4c3JJx5k07Nq6e6dt0+q\
-2Cth8PiPZfWKEK/sJxqQ54xlyVI35akOZPlnG75ZK0ld2YV+f/8AwTa+GOqfCb4B+N/DWp/H7xb+0iN\
-Y/ai/av8AiNpnxI8TaV8JbKxu9G+K/wAffHfxL05fC+r/AAU8D6JoHiuzvYfFX9t61fWYu4oPGHi7xL\
-pNrF4Z0/TLLwJ4T+xPip/yTD4j/wDIhf8AIheMP+Sqf8kw/wCRe1H/AJKP/wBSF/0GP+of9oryT9kz/\
-hF/+FQWX/CJf8Lb/sr+3tc8r/hb/wDZ/wDaHkefF/ZH/CCf8Ih/xSH/AAqT/hHf7F/4Rn/hA/8Aij/7\
-L8n+zv8AS/7Qr3cPWxEOGc0w6rzWExOMwdSdKPwOrh6OMhSqVO/JDF14Qe8XUavaTPisdnmNp+I3D3D\
-1GpSpYGvlWY4qsqjXPWnHEYKnRjQ93nVSlapKUVPknRnVlKHNRpyX5h/8FUv2lvCHxL8I6j+zT8GvFf\
-7blv8AGb4D/tqfsF6z8X739lP9g/4//tB6Z4U0nw58b/2av2g/GEGq/EdP2OfiD4HuPEnhX4EeNfD3x\
-SsdJsbuTVJ9X8HeHNL1Gx1vTNR1bwZ4h/VT9nv9p34RftQaP481n4SXfxA/4tf8QG+FvxC8P/FL4J/G\
-z9n/AMd+D/Hf/CCeBPidDoWu/Dj4/fD3wx4gsvP+H/xN8B6ta3TaZ9ju7PxNbyW1xL+8CfmB4H/4KB/\
-sO/sf/tRf8FSfDP7UH7Wf7P8A8DPFviD9v/4BT6N4J+IvxR8JeH/HeoaP8Qv+Cdv/AATP+G3hrxdB4G\
-udT/tf/hX/APwlv26PUfEbWQ0LRLPw/q+ra1qOn6RourX1l7//AME5fix8LPjj8T/+CovxS+CnxL+H/\
-wAYPhl4o/b/APBn/CM/EX4W+MvDnxA8CeIv7E/4Jlf8E4/Dus/2F4u8J6ld6fq/2TxBpGq2N19nuJPs\
-95plxay7J4ZEXzJ5hjamX4bKqmIlLLsHWr4ilSfwQrYmGHp16kVvzVYYTDRlrtRha1nf7lQipyml78k\
-k33SbaXycn95+kNv4V8L2muXPie18N6DbeJb37d9s8Q2+j6fDrl3/AGnZ+GNP1L7Tq0duLif7RYeCfB\
-kE+6Q+bD4R0yKTclhaLFvUUVyynOfLzycuVJK7bslslfZLotjOjh8Ph/a/V6EKHt5yqT5Ixjz1JW5qk\
-+VLmnKy5pO8nZXYV8wfGv8AZD+DXx78Vaf4q8dWXiCGS88P2vgD4r6B4b16fQfCv7SHwa03UdV8S6N8\
-CP2jdCtojF8VPg/ZeNtWvNVg0q6Mchtte8VeEJ7qb4e/Er4qeD/HP0/RUmwUUUUAFFFFABRRRQAUUUU\
-AFfkf/wAE5viBa+Lv2s/+CyOkQftB/s//ABgl0P8Abx8FT3vgz4RaVHYeMfhpdWv7Hf7N/wANEh+Ik6\
-fGnxMbjybP4VWngmdX0vRGbx3+z98Rb4GFNQXwb4F/TD4s+LtY+H/ws+Jfj3w74d/4S/xB4J+H/jLxd\
-oXhPyPHdz/wlGseG/Dmpazpnh37N8Lfh14w8T3H229soLbZ4c8JeKddf7Tt0jw5reoG30y6/EH/AIJL\
-/tYfGL9pr9oD9vLxd4Z+HP7P9z8MvF/7X9vrf7QOsaF8R/27PDfjv9n34p+CP2QPgJ+zfP8AAvT/AAR\
-+1D/wS6+Fen/Fb4gWniD9mnRtR8U2cfiPRNR8H2fxRtU1bSzPFpC+JPQwWMoYXDZtQrYCnjKmY4eNGl\
-Um5KWEqRxWGxDxFG2jqSpUKmFalePssTVfxKLIlFydNqTioO7S+0uWSs/K7UvVI/f6iiivPLCiiigD8\
-T/+CLX7Vnws+Lnwf+KHwu/4bD/ZA/aD+Ntp+1j/AMFCviX/AMIV+zprnhzSPEdn8LNT/bn+MH/F0L74\
-bf8AC+fHGrt8P/Eni3xT/wAJT4d1j7RFp1t4V+L3hHRPtWvXNr/wl3ij9sK8A/Zv+Ffxd+EPgTWPDPx\
-r/ae+IH7WXi2/+IHjfxFpfxH+Ivw/+Cfw11jQvAmqaxIvgD4dQeH/AIEfDvw1pF//AGN4StdKj1HV7i\
-ye81vXbrV9WiTRtIvNK8MaD7/XoZtmmPzzNczzrNK/1rM84xFbFYmrywh7SviKkqtapyU4wpw56k5S5\
-acIwje0YxiklFOnClThSprlhTSjFauySsld3bsl11CiiivPLCvyx/4JA/GvVvjv+y98R/F+s/tJfs//\
-ALUN5p37Z/7bnhuHx3+zpoGneHfB2maTZ/tM/EbU9B0q+stL+MHjSKT+09D1fTvFnh121KO4XwJ8SvC\
-NveS+I7uCfxx4q/Q74s+LtY+H/wALPiX498O+Hf8AhL/EHgn4f+MvF2heE/I8d3P/AAlGseG/Dmpazp\
-nh37N8Lfh14w8T3H229soLbZ4c8JeKddf7Tt0jw5reoG30y6/KH/ghz8efEH7Q/wCyr4/+IljafB/WP\
-g34q/af/az+J3wt+KHwk8UftQapp3jvUf2gf2rvjt+0T8QvD8ei/tPfsWfB67k8P+DtX+K+l+FLbxJo\
-S+I9K8Rar4Y16OY+HtS0e80aP0qWPpU8ox2WPBQqVsZicJXjiG5e0pRw1LGU50YxT5HDEPFQnNyXNGW\
-GpqLSlO/NLC0J4uhjpUovE4enVpQm4Rc4wrSozqRjNrnjGcqFJzhFqM3CDkm4Qa67/gtL8QLX4dfsmf\
-C/V7v9oP8AZ/8A2cIpv28f+Ces6eM/2i9Kj1bwdf3Xg/8AbF+D/wAS7KGxgl+NPgYL/YV54Gt/G3iJR\
-qkrXPgT4U+LrFDoT3a+MvDH64V+IP8AwW8/aevvgR8Ov2VvAEGl/D8/8Ll/a/8A2Ydb8M6t4/j/AGyZ\
-/wC3/in+zR+1P+zz+0v8PPgX4KsP2S/2EvjP/bXxA8f/APCtPEWiabZ6vN4d1FfIm1Lw5pfjL+zdZsN\
-N/X74W6l8U9X8CaFqHxr8G/D/AOH/AMTbj+0/+Em8I/C34l+I/jB4E0jytY1CDRv7C+Iviz4T+BtQ8R\
-faPD8WlXV19o8LaX9kvL24sYvtsFrHqN3NTGUJ5VgsvjgKdPFYXEYmtPFJy9rWp16eEhTw818Kp4aWH\
-q1KTXvOWLrc2ijbZRanKfM3GSiuXomnJtrzd0n/AIUegUUUV55YUUUUAFFFFABRRRQAUUUUAFFFFABR\
+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\
-BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH/2Q=='
+BRRRQAUUUUAFFFFAH/2Q=='
 	$end 'DesignInfo'
 $end 'ProjectPreview'
