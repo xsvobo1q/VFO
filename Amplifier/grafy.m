@@ -42,13 +42,13 @@ s22m = meas.svoboda(:, 8);
 
 figure();
 hold on
-plot(freq(50 : end), s11(50 : end), 'k', 'LineWidth', 1.2);
+plot(freq(90 : end), s11(90 : end), 'k', 'LineWidth', 1.2);
 % plot(freq, s12, '--k', 'LineWidth', 1.2);
-plot(freq_m(50 : end), s11m(50 : end), '--k', 'LineWidth', 1.2);
+plot(freq_m(100 : end), s11m(100 : end), '--k', 'LineWidth', 1.2);
 % plot(freq, s22, '.k', 'LineWidth', 1.2);
 legend("Simulace", "Měření", 'FontSize', 20, 'Location', 'southwest');
 set(gca, 'XScale', 'Log');
-ylim([-50 5]);
+ylim([-45 5]);
 grid on
 grid(gca,'minor');
 xlabel("f [MHz]");
@@ -60,11 +60,11 @@ title("S11");
 
 figure();
 hold on
-plot(freq(50 : end), s21(50 : end), 'k', 'LineWidth', 1.2);
+plot(freq(90 : end), s21(90 : end), 'k', 'LineWidth', 1.2);
 % plot(freq, s12, '--k', 'LineWidth', 1.2);
-plot(freq_m(50 : end), s21m(50 : end), '--k', 'LineWidth', 1.2);
+plot(freq_m(100 : end), s21m(100 : end), '--k', 'LineWidth', 1.2);
 % plot(freq, s22, '.k', 'LineWidth', 1.2);
-legend("Simulace", "Měření", 'FontSize', 20, 'Location', 'southwest');
+legend("Simulace", "Měření", 'FontSize', 20, 'Location', 'northeast');
 set(gca, 'XScale', 'Log');
 % ylim([0 2]);
 grid on
@@ -78,11 +78,11 @@ title("S21");
 
 figure();
 hold on
-plot(freq(50 : end), s22(50 : end), 'k', 'LineWidth', 1.2);
+plot(freq(90 : end), s22(90 : end), 'k', 'LineWidth', 1.2);
 % plot(freq, s12, '--k', 'LineWidth', 1.2);
-plot(freq_m(50 : end), s22m(50 : end), '--k', 'LineWidth', 1.2);
+plot(freq_m(100 : end), s22m(100 : end), '--k', 'LineWidth', 1.2);
 % plot(freq, s22, '.k', 'LineWidth', 1.2);
-legend("Simulace", "Měření", 'FontSize', 20, 'Location', 'southwest');
+legend("Simulace", "Měření", 'FontSize', 20, 'Location', 'southeast');
 set(gca, 'XScale', 'Log');
 % ylim([0 2]);
 grid on
@@ -92,6 +92,24 @@ set(gca, 'FontSize', 15);
 ylabel("S22 [dB]");
 set(gca, 'FontSize', 15);
 title("S22");
+% xticks([50, 100, 200, 500, 1000]);
+
+figure();
+hold on
+plot(freq(90 : end), s11(90 : end), '--k', 'LineWidth', 1.2);
+plot(freq(90 : end), s22(90 : end), 'k', 'LineWidth', 1.2);
+plot(freq_m(100 : end), s11m(100 : end), '--r', 'LineWidth', 1.2);
+plot(freq_m(100 : end), s22m(100 : end), 'r', 'LineWidth', 1.2);
+legend("S11 simulace", "S22 simulace", "S11 změřeno", "S22 změřeno", 'FontSize', 20, 'Location', 'southeast');
+set(gca, 'XScale', 'Log');
+% ylim([0 2]);
+grid on
+grid(gca,'minor');
+xlabel("f [MHz]");
+set(gca, 'FontSize', 15);
+ylabel("[dB]");
+set(gca, 'FontSize', 15);
+title("S11, S22");
 % xticks([50, 100, 200, 500, 1000]);
 
 [~, f0] = max(s21m);
